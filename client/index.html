@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js File Upload App</title>
+</head>
+<body>
+<div id="app">
+    <app></app>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-router@3.5.3/dist/vue-router.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+  const FILE_TYPE = 'text/csv';
+  const FILE_EXTENSION = '.csv';
+  const MAX_FILE_SIZE = 10 * 1024; // 10KB
+
+  // Define components
+  const HeaderLinks = {
+    template: `
+        <div>
+          <router-link to="/">File Upload</router-link>
+          <router-link to="/uploaded-files-list">Uploaded Files List</router-link>
+        </div>
+      `
+  };
+
+  const FileUpload = {
+    data () {
+      return {
+        fileInput: null,
+        file: null,
+        error: null
+      };
+    },
+    methods: {
+      handleFileUpload ($event) {
+        this.error = null;
+        this.fileInput = $event.target
+        if (!this.fileInput || !this.fileInput.files || this.fileInput.files.length === 0) {
+          this.error = 'Please select a file to upload.';
+          return;
+        }
+
+        if (this.fileInput.files.length > 1) {
+          this.error = 'You can download only one file at a time.';
+          return;
+        }
+
+        this.file = this.fileInput.files[0];
+
+        if (this.file.name.substring(this.file.name.length - 4).toLowerCase() !== FILE_EXTENSION || this.file.type !== FILE_TYPE) {
+          this.error = 'File must be of .csv type';
+          return;
+        }
+
+        if (this.file.size > MAX_FILE_SIZE) {
+          this.error = `File size must be less or equal to ${MAX_FILE_SIZE} bytes.`;
+        }
+      },
+      handleFileSubmit ($event) {
+        if (this.error) {
+          $event.preventDefault();
+          return false;
+        }
+
+        const formData = new FormData();
+        formData.append('file', this.file, this.file.name);
+        const headers = { 'Content-Type': 'multipart/form-data' };
+        axios.post('http://localhost:3000/upload', formData, { headers }).then((res) => {
+          res.data.files; // binary representation of the file
+          res.status; // HTTP status
+
+          // Handle file upload logic
+          this.fileInput.value = null;
+        });
+      },
+    },
+    template: `
+      <div>
+      <form @submit="handleFileSubmit">
+        <h2>File Upload</h2>
+        <input type="file" name="fileToUpload" ref="fileInput" @change="handleFileUpload"/>
+        <!--        <button @click="handleFileSubmit">Upload File</button>-->
+        <button type="submit">Upload File</button>
+      </form>
+      <p style="color: red;" v-if="error">{{ error }}</p>
+      </div>
+    `
+  };
+
+  const UploadedFilesList = {
+    props: {
+      uploadedFiles: Array
+    },
+    template: `
+      <div>
+      <h2>Uploaded Files List</h2>
+      <ul>
+        <li v-for="(file, index) in uploadedFiles" :key="index">{{ file.name }}</li>
+      </ul>
+      </div>
+    `
+  };
+
+  const routes = [
+    { path: '/', components: { default: FileUpload, header: HeaderLinks } },
+    { path: '/uploaded-files-list', components: { default: UploadedFilesList, header: HeaderLinks } },
+    { path: '/*', components: { default: FileUpload, header: HeaderLinks } }
+  ];
+
+  const router = new VueRouter({
+    routes
+  });
+
+  Vue.component('app', {
+    data () {
+      return {
+        uploadedFiles: [],
+        fileInput: null,
+        error: null
+      };
+    },
+    methods: {
+      handleFileUpload () {
+        this.error = null;
+
+        if (!this.fileInput || !this.fileInput.files || this.fileInput.files.length === 0) {
+          this.error = "Please select a file to upload.";
+          return;
+        }
+
+        const file = this.fileInput.files[0];
+        this.uploadedFiles.push(file);
+        this.fileInput.value = null;
+      },
+    },
+    router,
+    template: `
+      <div>
+      <h1>Vue.js File Upload App</h1>
+
+      <router-view name="header"></router-view>
+      <router-view></router-view>
+      </div>
+    `
+  });
+
+  new Vue({
+    el: '#app'
+  });
+</script>
+</body>
+</html>

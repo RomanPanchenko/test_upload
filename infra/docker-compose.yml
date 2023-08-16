@@ -1,0 +1,35 @@
+version: "3.9"
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./initdb.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./mysql-data:/var/lib/mysql
+    networks:
+      - test_upload_net
+
+  server:
+    platform: linux/amd64
+    depends_on:
+      - mysql
+    build:
+      context: ./../server
+      dockerfile: Dockerfile
+    volumes:
+      - ./../server:/app
+    environment:
+      NODE_ENV: development
+    container_name: dev-server
+    ports:
+      - "3000:3000"
+      - "9220:9220"
+    networks:
+      - test_upload_net
+
+networks:
+  test_upload_net:
+    external: true

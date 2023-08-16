@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+process.env.NODE_CONFIG_DIR = require('path').resolve(__dirname, './../config');
+
+const config = require('config');
+require('./../server').getServer().then(({ server }) => {
+  server.listen(config.get('port'), config.get('host'));
+});
