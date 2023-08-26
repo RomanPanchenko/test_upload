@@ -16,15 +16,9 @@ module.exports = (sequelize, Sequelize) => {
       allowNull: false
     },
   }, {
-    tableName: 'bucket'
+    timestamps: false,
+    tableName: 'bucket',
   });
-
-  bucket.associate = (models) => {
-    bucket.hasMany(models.file, {
-      as: 'files',
-      allowNull: false
-    });
-  };
 
   return bucket;
 };

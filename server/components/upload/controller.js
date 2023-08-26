@@ -2,7 +2,16 @@ const formidable = require('formidable');
 const service = require('./service');
 
 const getUploadedFilesList = async (req, res) => {
-  return res.status(200).send({});
+  const uploadedFiles = await service.getUploadedFilesList();
+  return res.status(200).send(uploadedFiles);
+};
+
+const getUploadedFileById = async (req, res) => {
+  const { fileContent, fileName } = await service.getUploadedFileById(req.params.fileId);
+
+  res.header('Content-Type', 'text/csv');
+  res.attachment(fileName);
+  return res.send(fileContent);
 };
 
 const formParse = async (req) => {
@@ -25,11 +34,8 @@ const formParse = async (req) => {
 const uploadFile = async (req, res) => {
   try {
     const files = await formParse(req);
-    await service.uploadFile({
-      tmpFilePath: files.file[0].filepath,
-      originalFilename: files.file[0].originalFilename,
-      contentType: files.file[0].mimetype,
-    });
+    const { filepath: tmpFilePath, originalFilename, mimetype: contentType, size } = files.file[0];
+    await service.uploadFile({ tmpFilePath, originalFilename, contentType, size });
   } catch (e) {
     return res.status(400).send({ error: e.message });
   }
@@ -39,5 +45,6 @@ const uploadFile = async (req, res) => {
 
 module.exports = {
   getUploadedFilesList,
+  getUploadedFileById,
   uploadFile,
 };

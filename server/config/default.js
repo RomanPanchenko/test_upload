@@ -13,7 +13,7 @@ module.exports = {
     timezone: '+00:00',
     username: 'root',
     password: '',
-    database: 'test_upload',
+    database: 'test_upload_db',
     host: 'mysqldb',
     port: 3306,
     logging: false,

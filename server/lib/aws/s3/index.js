@@ -34,6 +34,7 @@ const putObject = async (params) => {
     contentType = 'application/json',
   } = params;
 
+  let s3Response;
   di.Logger.debug(`START: putObject to ${bucket}/${path}`);
   try {
     const putParams = {
@@ -44,12 +45,14 @@ const putObject = async (params) => {
     };
 
     const putCommand = new PutObjectCommand(putParams);
-    await client.send(putCommand);
+    s3Response = await client.send(putCommand);
   } catch (e) {
     di.Logger.error(e);
   }
 
   di.Logger.debug('END: putObject');
+
+  return s3Response;
 };
 
 /**

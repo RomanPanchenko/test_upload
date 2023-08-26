@@ -12,6 +12,7 @@
     "@aws-sdk/client-s3": "^3.388.0",
     "bottlejs": "^2.0.0",
     "config": "^3.3.6",
+    "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "express": "^4.17.3",
     "express-promise-router": "^4.1.0",

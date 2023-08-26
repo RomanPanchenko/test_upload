@@ -32,15 +32,9 @@ module.exports = (sequelize, Sequelize) => {
       allowNull: false
     },
   }, {
-    tableName: 'file'
+    timestamps: false,
+    tableName: 'file',
   });
-
-  file.associate = (models) => {
-    file.belongsTo(models.bucket, {
-      as: 'bucket',
-      foreignKey: 'bucket_id'
-    });
-  };
 
   return file;
 };

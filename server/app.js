@@ -1,6 +1,15 @@
 const app = require('express')();
 const router = require('express-promise-router')();
+var cors = require('cors')
 const { Logger } = require('./di').container;
+
+var corsOptions = {
+  origin: '*',
+  optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
+
 app.use((req, res, next) => {
   let message;
   const acceptEncodingIndex = req.rawHeaders.findIndex(p => p === 'accept-encoding');

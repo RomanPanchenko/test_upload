@@ -71,10 +71,7 @@
         formData.append('file', this.file, this.file.name);
         const headers = { 'Content-Type': 'multipart/form-data' };
         axios.post('http://localhost:3000/upload', formData, { headers }).then((res) => {
-          res.data.files; // binary representation of the file
-          res.status; // HTTP status
-
-          // Handle file upload logic
+          this.error = (res.status !== 200) ? 'Something went wrong. Please try again' : null;
           this.fileInput.value = null;
         });
       },
@@ -93,23 +90,65 @@
   };
 
   const UploadedFilesList = {
-    props: {
-      uploadedFiles: Array
+    data () {
+      return {
+        uploadedFiles: [],
+      };
+    },
+    methods: {
+      getUploadedFilesList () {
+        axios.get('http://localhost:3000/uploaded-files').then((res) => {
+          this.uploadedFiles = res.data;
+        });
+      }
     },
     template: `
       <div>
       <h2>Uploaded Files List</h2>
-      <ul>
-        <li v-for="(file, index) in uploadedFiles" :key="index">{{ file.name }}</li>
-      </ul>
+      <table border="1">
+        <thead>
+        <tr>
+          <td>id</td>
+          <td>name</td>
+          <td>size</td>
+          <td>url</td>
+          <td>createdAt</td>
+          <td>updatedAt</td>
+          <td>&nbsp;</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr v-for="(file, index) in uploadedFiles" :key="index">
+          <td>{{ file.id }}</td>
+          <td>{{ file.name }}</td>
+          <td>{{ file.size }}</td>
+          <td>{{ file.url }}</td>
+          <td>{{ file.createdAt }}</td>
+          <td>{{ file.updatedAt }}</td>
+          <td><a :href="'http://localhost:3000/file-content/' + file.id" target="_blank">View</a></td>
+        </tr>
+        </tbody>
+      </table>
       </div>
-    `
+    `,
+    created () {
+      this.getUploadedFilesList();
+    }
   };
 
   const routes = [
-    { path: '/', components: { default: FileUpload, header: HeaderLinks } },
-    { path: '/uploaded-files-list', components: { default: UploadedFilesList, header: HeaderLinks } },
-    { path: '/*', components: { default: FileUpload, header: HeaderLinks } }
+    {
+      path: '/',
+      components: { default: FileUpload, header: HeaderLinks }
+    },
+    {
+      path: '/uploaded-files-list',
+      components: { default: UploadedFilesList, header: HeaderLinks },
+    },
+    {
+      path: '/*',
+      components: { default: FileUpload, header: HeaderLinks }
+    }
   ];
 
   const router = new VueRouter({
