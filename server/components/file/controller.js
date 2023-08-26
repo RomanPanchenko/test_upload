@@ -6,8 +6,9 @@ const getUploadedFilesList = async (req, res) => {
   return res.status(200).send(uploadedFiles);
 };
 
-const getUploadedFileById = async (req, res) => {
-  const { fileContent, fileName } = await service.getUploadedFileById(req.params.fileId);
+const getFileFromS3 = async (req, res) => {
+  const { fileId, versionId } = req.params;
+  const { fileContent, fileName } = await service.getFileFromS3(fileId, versionId);
 
   res.header('Content-Type', 'text/csv');
   res.attachment(fileName);
@@ -45,6 +46,6 @@ const uploadFile = async (req, res) => {
 
 module.exports = {
   getUploadedFilesList,
-  getUploadedFileById,
+  getFileFromS3,
   uploadFile,
 };

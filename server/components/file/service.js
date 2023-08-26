@@ -13,11 +13,12 @@ const unlink = (fileName) => new Promise((resolve, reject) => {
   })
 })
 
-const getUploadedFileById = async (fileId) => {
+const getFileFromS3 = async (fileId, versionId) => {
   const uploadedFile = await testUploadModels.file.findOne({ where: { id: fileId } });
 
   const fileContent = await s3.getObject({
     path: uploadedFile.name,
+    ...(versionId) && { versionId },
   });
 
   return { fileContent, fileName: uploadedFile.name };
@@ -25,7 +26,17 @@ const getUploadedFileById = async (fileId) => {
 
 const getUploadedFilesList = async () => {
   const bucket = await testUploadModels.bucket.findOne({ where: { name: DEFAULT_BUCKET_NAME } });
-  const uploadedFiles = await testUploadModels.file.findAll();
+  const uploadedFiles = await testUploadModels.file.findAll({
+    include: [{
+      model: testUploadModels.version,
+      as: 'versions',
+      required: true,
+    }],
+    order: [
+      [{ model: testUploadModels.version, as: 'versions' }, 'file_id', 'asc'],
+      [{ model: testUploadModels.version, as: 'versions' }, 'created_at', 'desc'],
+    ]
+  });
 
   const result = [];
 
@@ -33,10 +44,12 @@ const getUploadedFilesList = async () => {
     result.push({
       id: f.id,
       name: f.name,
-      size: f.size,
-      url: bucket.url + f.url,
-      createdAt: f.created_at,
-      updatedAt: f.updated_at,
+      versions: f.versions.map(v => ({
+        version_id: v.version_id,
+        size: v.size,
+        url: bucket.url + '/' + f.url + '?versionId=' + v.version_id,
+        created_at: v.created_at,
+      })),
     });
   });
 
@@ -62,18 +75,17 @@ const uploadFile = async (params = {}) => {
     } else {
       await testUploadModels.file.create({
         name: originalFilename,
-        size,
         url: originalFilename,
         bucket_id: bucket.id,
-        created_at: NOW,
-        updated_at: NOW,
       });
     }
 
     uploadedFile = await testUploadModels.file.findOne({ where: { name: originalFilename } });
     await testUploadModels.version.create({
       file_id: uploadedFile.id,
-      version: s3Response.VersionId,
+      version_id: s3Response.VersionId,
+      size,
+      created_at: NOW,
     });
   } catch (e) {
     di.Logger.error(e);
@@ -88,6 +100,6 @@ const uploadFile = async (params = {}) => {
 
 module.exports = {
   getUploadedFilesList,
-  getUploadedFileById,
+  getFileFromS3,
   uploadFile,
 };

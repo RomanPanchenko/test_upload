@@ -3,16 +3,12 @@
 module.exports = (sequelize, Sequelize) => {
   const file = sequelize.define('file', {
     id: {
-      type: Sequelize.INTEGER,
+      type: Sequelize.INTEGER.UNSIGNED,
       primaryKey: true,
-      autoIncrement: true
+      autoIncrement: true,
     },
     name: {
       type: Sequelize.STRING(512),
-      allowNull: false
-    },
-    size: {
-      type: Sequelize.INTEGER,
       allowNull: false
     },
     url: {
@@ -23,18 +19,17 @@ module.exports = (sequelize, Sequelize) => {
       type: Sequelize.INTEGER,
       allowNull: false
     },
-    created_at: {
-      type: Sequelize.DATE(6),
-      allowNull: false
-    },
-    updated_at: {
-      type: Sequelize.DATE(6),
-      allowNull: false
-    },
   }, {
     timestamps: false,
     tableName: 'file',
   });
+
+  file.associate = (models) => {
+    file.hasMany(models.version, {
+      as: 'versions',
+      foreignKey: 'file_id'
+    });
+  };
 
   return file;
 };

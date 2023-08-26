@@ -70,7 +70,7 @@
         const formData = new FormData();
         formData.append('file', this.file, this.file.name);
         const headers = { 'Content-Type': 'multipart/form-data' };
-        axios.post('http://localhost:3000/upload', formData, { headers }).then((res) => {
+        axios.post('http://localhost:3000/file', formData, { headers }).then((res) => {
           this.error = (res.status !== 200) ? 'Something went wrong. Please try again' : null;
           this.fileInput.value = null;
         });
@@ -97,8 +97,24 @@
     },
     methods: {
       getUploadedFilesList () {
-        axios.get('http://localhost:3000/uploaded-files').then((res) => {
-          this.uploadedFiles = res.data;
+        axios.get('http://localhost:3000/file/list').then((res) => {
+          this.uploadedFiles = [];
+
+          res.data.forEach(file => {
+            for (let i = 0; i < file.versions.length; i++) {
+              const version = file.versions[i];
+              const fileInfo = {
+                id: file.id,
+                ...(i === 0) && { name: file.name },
+                url: version.url,
+                size: version.size,
+                version_id: version.version_id,
+                created_at: version.created_at,
+              };
+
+              this.uploadedFiles.push(fileInfo);
+            }
+          });
         });
       }
     },
@@ -113,7 +129,6 @@
           <td>size</td>
           <td>url</td>
           <td>createdAt</td>
-          <td>updatedAt</td>
           <td>&nbsp;</td>
         </tr>
         </thead>
@@ -123,9 +138,9 @@
           <td>{{ file.name }}</td>
           <td>{{ file.size }}</td>
           <td>{{ file.url }}</td>
-          <td>{{ file.createdAt }}</td>
-          <td>{{ file.updatedAt }}</td>
-          <td><a :href="'http://localhost:3000/file-content/' + file.id" target="_blank">View</a></td>
+          <td>{{ file.created_at }}</td>
+          <td><a :href="'http://localhost:3000/file/content/' + file.id + '/' + file.version_id"
+                 target="_blank">View</a></td>
         </tr>
         </tbody>
       </table>

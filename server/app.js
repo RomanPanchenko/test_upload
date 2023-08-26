@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 
 app.use(router);
 // - ROUTES
-router.use('/upload', require('./components/upload/api')(router));
+router.use('/file', require('./components/file/api')(router));
 
 app.get('/status', (req, res) => res.status(200).send('Status is OK'));
 

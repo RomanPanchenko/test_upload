@@ -67,6 +67,7 @@ const getObject = async (params) => {
   const {
     bucket = DEFAULT_BUCKET_NAME,
     path,
+    versionId,
     responseType = 'string'
   } = params;
 
@@ -77,6 +78,7 @@ const getObject = async (params) => {
     const getParams = {
       Bucket: bucket,
       Key: path,
+      ...(versionId) && { VersionId: versionId },
     };
 
     const getCommand = new GetObjectCommand(getParams);
