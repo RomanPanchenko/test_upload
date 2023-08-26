@@ -33,15 +33,16 @@ const formParse = async (req) => {
 };
 
 const uploadFile = async (req, res) => {
+  let result;
   try {
     const files = await formParse(req);
     const { filepath: tmpFilePath, originalFilename, mimetype: contentType, size } = files.file[0];
-    await service.uploadFile({ tmpFilePath, originalFilename, contentType, size });
+    result = await service.uploadFile({ tmpFilePath, originalFilename, contentType, size });
   } catch (e) {
     return res.status(400).send({ error: e.message });
   }
 
-  return res.status(200).send({});
+  return res.status(200).send(result);
 };
 
 module.exports = {

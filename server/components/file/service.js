@@ -58,44 +58,62 @@ const getUploadedFilesList = async () => {
 
 const uploadFile = async (params = {}) => {
   const { tmpFilePath, originalFilename, contentType, size } = params;
+  const result = { url: '' };
+  let s3Response;
+
   try {
     const fileStream = fs.createReadStream(tmpFilePath);
-    const s3Response = await s3.putObject({
+    s3Response = await s3.putObject({
       path: originalFilename,
       data: fileStream,
       contentType,
     });
 
-    const bucket = await testUploadModels.bucket.findOne({ where: { name: DEFAULT_BUCKET_NAME } });
-    let uploadedFile = await testUploadModels.file.findOne({ where: { name: originalFilename } });
+    await unlink(tmpFilePath);
+    if (!s3Response) throw new Error(`Cannot upload file ${originalFilename}`);
+  } catch (e) {
+    di.Logger.error(e);
+    throw e;
+  }
+
+  let transaction;
+  try {
+    transaction = await testUploadModels.sequelize.transaction();
+    const bucket = await testUploadModels.bucket.findOne({ where: { name: DEFAULT_BUCKET_NAME }, transaction });
+    result.url += bucket.url;
+    let uploadedFile = await testUploadModels.file.findOne({ where: { name: originalFilename }, transaction });
     const NOW = +new Date();
     if (uploadedFile) {
       uploadedFile.size = size;
-      await testUploadModels.file.update({ size }, { where: { id: uploadedFile.id, updated_at: NOW } });
+      await testUploadModels.file.update({ size }, { where: { id: uploadedFile.id, updated_at: NOW }, transaction });
     } else {
       await testUploadModels.file.create({
         name: originalFilename,
         url: originalFilename,
         bucket_id: bucket.id,
-      });
+      }, { transaction });
     }
 
-    uploadedFile = await testUploadModels.file.findOne({ where: { name: originalFilename } });
+    result.url += '/' + originalFilename + '?versionId=' + s3Response.VersionId;
+
+    uploadedFile = await testUploadModels.file.findOne({ where: { name: originalFilename }, transaction });
     await testUploadModels.version.create({
       file_id: uploadedFile.id,
       version_id: s3Response.VersionId,
       size,
       created_at: NOW,
-    });
+    }, { transaction });
+
+    await transaction.commit();
   } catch (e) {
+    if (transaction) {
+      await transaction.rollback();
+    }
+
     di.Logger.error(e);
   }
 
-  try {
-    await unlink(tmpFilePath);
-  } catch (e) {
-    di.Logger.error(e);
-  }
+  return result;
 };
 
 module.exports = {

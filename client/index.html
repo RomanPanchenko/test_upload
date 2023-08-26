@@ -71,8 +71,9 @@
         formData.append('file', this.file, this.file.name);
         const headers = { 'Content-Type': 'multipart/form-data' };
         axios.post('http://localhost:3000/file', formData, { headers }).then((res) => {
-          this.error = (res.status !== 200) ? 'Something went wrong. Please try again' : null;
           this.fileInput.value = null;
+        }).catch(error => {
+          this.error = 'Something went wrong. Please try again';
         });
       },
     },
