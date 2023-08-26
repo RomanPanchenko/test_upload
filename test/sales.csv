@@ -1,0 +1,11 @@
+brand,ethnicity,gender,q1,q2,sales
+Nike,white,Male,yes,red,10
+Nike,non-white,Male,yes,blue,20
+Adidas,non-white,Woman,no,red,20
+Nike,white,Male,no,red,10
+Adidas,non-white,Woman,yes,red,30
+Puma,white,Woman,no,blue,40
+Puma,white,Male,no,blue,10
+Nike,non-white,Male,yes,red,20
+Puma,non-white,Woman,no,blue,10
+Adidas,white,Woman,no,blue,20

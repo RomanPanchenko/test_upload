@@ -1,0 +1,1620 @@
+InterviewId,Question,QuestionId,AnswerId,UniqueId,Answer
+1,AQ1.1,1,1,111,lettvint
+1,AQ1.2,1,2,112,raskt
+1,AQ2.1,2,1,121,aldri
+1,AQ3.1,3,1,131,sulten
+1,AQ4.1,4,1,141,mat
+1,AQ5.1,5,1,151,kjøtt
+1,AQ6.1,6,1,161,jeg lager ikke mat
+1,AQ7.1,7,1,171,alltid
+1,AQ8.1,8,1,181,sulten
+1,AQ9.1,9,1,191,pølser
+1,AQ10.1,10,1,1101,bli mett
+1,AQ11.1,11,1,1111,bli mett
+1,AQ12.1,12,1,1121,bli mett
+1,AQ13.1,13,1,1131,vet ikke
+1,AQ14.1,14,1,1141,pølser
+1,AQ15.1,15,1,1151,smaker godt
+1,AQ16.1,16,1,1161,nei
+1,AQ17.1,17,1,1171,nei
+1,AQ18.1,18,1,1181,vet ikke
+1,AQ19.1,19,1,1191,smaken
+1,AQ20.1,20,1,1201,vet ikke
+1,AQ21.1,21,1,1211,vet ikke
+1,AQ22.1,22,1,1221,ikke la meg tilbrede maten
+2,AQ1.1,1,1,211,Når jeg lager mat til  meg selv må det være et lavt innhold av karbohydrater ettersom jeg spiser ketogen kost
+2,AQ1.2,1,2,212,Det må gå relativt raskt
+2,AQ1.3,1,3,213,Det må være mat alle liker og tåler eller har muligheten til å lett tilpasse selv ved bordet
+2,AQ1.4,1,4,214,Helst ikke så mye oppvask
+2,AQ2.1,2,1,221,På lørdager
+2,AQ2.2,2,2,222,Bursdager
+2,AQ2.3,2,3,223,Når jeg er hjemme alene og kan okkuperer kjøkkenet i kollektivet
+2,AQ3.1,3,1,231,Vet ikke..? Glad?
+2,AQ4.1,4,1,241,Varmt
+2,AQ4.2,4,2,242,Godt
+2,AQ4.3,4,3,243,Saus
+2,AQ4.4,4,4,244,Kjøtt
+2,AQ5.1,5,1,251,Storfekjøtt
+2,AQ5.2,5,2,252,Hvitløk
+2,AQ6.1,6,1,261,Bedre stemning
+2,AQ6.2,6,2,262,Ingen sure miner blant gjestene der og da eller i ettertid
+2,AQ6.3,6,3,263,Dårlig selvfølelse
+2,AQ6.4,6,4,264,Klarer ikke nyte maten når folk ikke liker den
+2,AQ7.1,7,1,271,Før vors
+2,AQ7.2,7,2,272,I eksamensperioden
+2,AQ7.3,7,3,273,Når jeg kommer sent hjem
+2,AQ7.4,7,4,274,Hvis jeg ikke gidder
+2,AQ8.1,8,1,281,Aner ikke
+2,AQ9.1,9,1,291,Pølser
+2,AQ9.2,9,2,292,Taco
+2,AQ9.3,9,3,293,Ferdigretter
+2,AQ9.4,9,4,294,Nudler
+2,AQ10.1,10,1,2101,Lavkarbo
+2,AQ10.2,10,2,2102,Billig
+2,AQ10.3,10,3,2103,Raskt
+2,AQ11.1,11,1,2111,Ekstra godt
+2,AQ11.2,11,2,2112,Kos
+2,AQ11.3,11,3,2113,Kan godt ta lenger tid å lage
+2,AQ12.1,12,1,2121,"Å servere ris, pasta, potet eller brød ved siden av retten selv om jeg selv ikke spiser det"
+2,AQ12.2,12,2,2122,Allergier
+2,AQ13.1,13,1,2131,Lat
+2,AQ13.2,13,2,2132,Ikke sulten nok
+2,AQ13.3,13,3,2133,Har ikke de rette ingrediensene
+2,AQ14.1,14,1,2141,Omelett
+2,AQ14.2,14,2,2142,Knekkebrød
+2,AQ14.3,14,3,2143,Vafler
+2,AQ15.1,15,1,2151,Pris
+2,AQ15.2,15,2,2152,At det ser ferskt ut og ikke har for mye slintrer
+2,AQ16.1,16,1,2161,Pris
+2,AQ16.2,16,2,2162,Passer godt med alt
+2,AQ16.3,16,3,2163,Lett å tilberede
+2,AQ17.1,17,1,2171,"Har egentlig ingen preferanser, jeg bare spiser det som er billigst;)"
+2,AQ18.1,18,1,2181,"Alt er relativt og typisk ville jeg svart «magert», men ettersom jeg spiser lavkarbo og skal ha mye fett er det ikke like viktig for meg nå."
+2,AQ18.2,18,2,2182,Uten tilsatt vann eller ekstra stoffer
+2,AQ18.3,18,3,2183,Ikke prosessert
+2,AQ19.1,19,1,2191,Det ligger mer kjærlighet i produkter fra små produsenter som lager mat fra lokale produkter.
+2,AQ19.2,19,2,2192,"strengere regulering av hva dyrene får i seg, og oppfølging av sykdom o.l."
+2,AQ19.3,19,3,2193,Frittgående/beitende dyr har det som oftest bedre fysisk og psykisk.
+11,AQ22.1,22,1,11221,.
+2,AQ20.1,20,1,2201,Uten tilsatt vann og salt
+3,AQ5.1,5,1,351,Hjemmefisket fisk
+3,AQ10.2,10,2,3102,Sunt
+2,AQ20.2,20,2,2202,"Sprøtt skinn er godt, mens stykker med skinn som ikke er sprøtt er ekkelt"
+2,AQ21.1,21,1,2211,?
+2,AQ22.1,22,1,2221,Mindre stoffer i maten til dyret
+2,AQ22.2,22,2,2222,Friske dyr
+2,AQ22.3,22,3,2223,Fersk mat som fort kommer i butikkene etter slakt
+2,AQ22.4,22,4,2224,Riktig oppbevaring og emballasje
+3,AQ1.1,1,1,311,Sunt
+3,AQ1.2,1,2,312,Rimelig
+3,AQ1.3,1,3,313,Hjemmelget
+3,AQ1.4,1,4,314,Hjemmefiisket
+3,AQ2.1,2,1,321,Helgemat
+3,AQ2.2,2,2,322,Inviterer til selskap
+3,AQ3.1,3,1,331,Sunn
+3,AQ3.2,3,2,332,Fornøyd
+3,AQ4.1,4,1,341,Fiskebasert
+3,AQ4.2,4,2,342,Viultkjøtt
+3,AQ5.2,5,2,352,Hjort
+3,AQ6.1,6,1,361,God stemning vs dårlig stemning
+3,AQ7.1,7,1,371,Når vi jobber med f.eks oppussing
+3,AQ7.2,7,2,372,Dårlig dag på jobben
+3,AQ7.3,7,3,373,Føler seg lat
+3,AQ8.1,8,1,381,Effektiv
+3,AQ8.2,8,2,382,Ikke for mye kompromiss
+3,AQ9.1,9,1,391,Pasta
+3,AQ9.2,9,2,392,Suppe
+3,AQ9.3,9,3,393,Salat
+3,AQ10.1,10,1,3101,Bruke mat fra fryseren vår.
+3,AQ10.3,10,3,3103,Dessert hver dag
+3,AQ11.1,11,1,3111,God saus
+34,AQ22.3,22,3,34223,Saus
+3,AQ11.2,11,2,3112,Godt tilbehør
+3,AQ11.3,11,3,3113,Dessert
+3,AQ12.1,12,1,3121,Passe på at det er nok
+3,AQ12.2,12,2,3122,Alle må like noe av det
+3,AQ13.1,13,1,3131,Vet ikke
+3,AQ14.1,14,1,3141,Rekesørbrød
+3,AQ14.2,14,2,3142,Krabbesmørbrød
+3,AQ15.1,15,1,3151,Sunt kjøtt fra vilt
+3,AQ15.2,15,2,3152,Ikke antibiotikabehandlet
+3,AQ16.1,16,1,3161,Viltkjøtt er økologisk
+3,AQ17.1,17,1,3171,Ønsker mindre kjøtt
+3,AQ18.1,18,1,3181,"Vilt har aldri blitt foret, men spist kun ville vekster."
+3,AQ19.1,19,1,3191,Mindre skala hjelper litt
+3,AQ19.2,19,2,3192,Økologisk landbruk
+3,AQ20.1,20,1,3201,"Når fuglen får leve litt ekstra, sløik at den blir større."
+3,AQ20.2,20,2,3202,Økologisk fór.
+3,AQ21.1,21,1,3211,Saftig
+3,AQ22.1,22,1,3221,La den leve lengre
+4,AQ1.1,1,1,411,Minst mulig utblandet
+4,AQ1.2,1,2,412,Gå fort å lage
+4,AQ1.3,1,3,413,Ikke bli for mye oppvask
+4,AQ1.4,1,4,414,"Rene produkter , mye grønnsaker"
+4,AQ1.5,1,5,415,Prøve å redusere fett og karbohydrater
+4,AQ2.1,2,1,421,I helgene
+4,AQ2.2,2,2,422,Når vi har gjester
+4,AQ2.3,2,3,423,Til høytider
+4,AQ2.4,2,4,424,Når vi trenger å kose oss
+4,AQ3.1,3,1,431,Liker å lage mat av litt ekstra gode råvarer
+4,AQ3.2,3,2,432,Føle at jeg mestrer
+4,AQ3.3,3,3,433,Bruke tid og ta et glass vin mens jeg holder på
+4,AQ3.4,3,4,434,"Prate med samboer, kose meg"
+4,AQ4.1,4,1,441,Søndager har vi ganske lettvint mat
+4,AQ4.2,4,2,442,Noe som metter etter dagens tur/skitur/treningsøkt
+4,AQ4.3,4,3,443,Må ikke ta lang tid
+4,AQ4.4,4,4,444,Gjerne noe oppvarmet fra lørdag
+4,AQ4.5,4,5,445,"Avslappet, «nedpå» , rolig"
+4,AQ5.1,5,1,451,"Kjøtt (storfe, svin, lam) eller fisk (røye, laks, torsk"
+4,AQ5.2,5,2,452,"Grønnsaker - broccoli, gulrot, blomkål"
+4,AQ5.3,5,3,453,"Salat, blandet"
+4,AQ5.4,5,4,454,Av og til saus
+4,AQ5.5,5,5,455,"Potet, kokt eller gratinert"
+4,AQ6.1,6,1,461,"Sitter lengre, alle spiser mer"
+4,AQ6.2,6,2,462,Det snakkes om maten
+4,AQ6.3,6,3,463,Noen spør om å få med restene
+4,AQ6.4,6,4,464,Restene blir brukt til lunsj dagen etter
+4,AQ6.5,6,5,465,Noen spør om oppskrift
+4,AQ7.1,7,1,471,Hverdager når jeg er på vei mellom ting
+4,AQ7.2,7,2,472,"Ofte, sjelden jeg bruker lang tid"
+4,AQ7.3,7,3,473,Når jeg er i pendlerhybel
+4,AQ7.4,7,4,474,Når voksne barn kommer innom og er sultne
+4,AQ7.5,7,5,475,Når jeg bare er hjemom på vei til noe
+4,AQ8.1,8,1,481,Multitasking
+4,AQ8.2,8,2,482,At jeg har kontroll
+4,AQ8.3,8,3,483,At jeg lager noe raskt som likevel er sunt
+4,AQ8.4,8,4,484,At jeg er effektiv men likevel får riktig næring
+4,AQ8.5,8,5,485,«Bærekraftig»
+4,AQ9.1,9,1,491,Egg
+4,AQ9.2,9,2,492,Kylling
+4,AQ9.3,9,3,493,Salat
+4,AQ9.4,9,4,494,Brød
+4,AQ9.5,9,5,495,Wienerpølse med lompe
+4,AQ10.1,10,1,4101,Sunt
+4,AQ10.2,10,2,4102,Godt
+4,AQ10.3,10,3,4103,Raskt og effektivt
+4,AQ10.4,10,4,4104,Ikke svindyrt
+4,AQ10.5,10,5,4105,Næringsrikt
+4,AQ11.1,11,1,4111,Godt
+4,AQ11.2,11,2,4112,Tradisjonsmat
+4,AQ11.3,11,3,4113,Sesongmat
+4,AQ11.4,11,4,4114,Har helgepreg
+4,AQ11.5,11,5,4115,Litt dyrere
+4,AQ12.1,12,1,4121,Nei
+4,AQ13.1,13,1,4131,Når tiden er veldig knapp
+4,AQ13.2,13,2,4132,Brødskiver på tur
+4,AQ13.3,13,3,4133,Matpakke /brødskiver i bilen
+4,AQ14.1,14,1,4141,Brødskiver
+4,AQ14.2,14,2,4142,Salat
+4,AQ14.3,14,3,4143,Pølse i lompe
+4,AQ15.1,15,1,4151,Magert
+4,AQ15.2,15,2,4152,Mørt
+4,AQ15.3,15,3,4153,Smakfullt
+4,AQ15.4,15,4,4154,Norsk
+4,AQ16.1,16,1,4161,Kylling som er magert og godt
+4,AQ16.2,16,2,4162,En svær biff som metter
+4,AQ16.3,16,3,4163,Lammesteik som er  utrolig godt på smak
+4,AQ17.1,17,1,4171,Lam
+4,AQ18.1,18,1,4181,Svin og Kylling; magert
+4,AQ19.1,19,1,4191,Kommer fra norske dyr
+4,AQ19.2,19,2,4192,Rene produkter
+4,AQ19.3,19,3,4193,Uten medisinbruk
+4,AQ20.1,20,1,4201,At det er tilbredt så det ikke blir tørt
+4,AQ20.2,20,2,4202,Godt krydret/smaksatt
+4,AQ20.3,20,3,4203,Rent kjøtt
+4,AQ21.1,21,1,4211,Samme spm som forrige
+4,AQ22.1,22,1,4221,Stekt v riktig temperatur
+5,AQ1.1,1,1,511,Vi spiser annet en bare karbohydrater
+5,AQ1.2,1,2,512,Smaken er viktigst
+5,AQ2.1,2,1,521,Ved selskap
+5,AQ2.2,2,2,522,Besøk
+5,AQ2.3,2,3,523,Lage for andre
+5,AQ2.4,2,4,524,Spesielle anledninger
+5,AQ2.5,2,5,525,Helger
+5,AQ3.1,3,1,531,I godt humør
+5,AQ3.2,3,2,532,Har god tid
+5,AQ3.3,3,3,533,Forbered
+5,AQ4.1,4,1,541,Besøk av venner eller familie
+5,AQ5.1,5,1,551,Ingen spesielle
+5,AQ6.1,6,1,561,Stemningen
+5,AQ6.2,6,2,562,Humøret
+5,AQ6.3,6,3,563,Humoren
+5,AQ7.1,7,1,571,Stressende hverdag
+5,AQ8.1,8,1,581,I godt humør
+5,AQ9.1,9,1,591,Frossen pizza
+5,AQ9.2,9,2,592,Hamburger
+5,AQ9.3,9,3,593,Pølser
+5,AQ10.1,10,1,5101,Tilgang på ingredienser
+5,AQ11.1,11,1,5111,Fisk
+5,AQ11.2,11,2,5112,Kjøttdeig
+5,AQ12.1,12,1,5121,Dekke pent
+5,AQ12.2,12,2,5122,Dandere.maten
+5,AQ13.1,13,1,5131,Aldri
+5,AQ14.1,14,1,5141,Grøt
+5,AQ14.2,14,2,5142,Pannekaker
+5,AQ14.3,14,3,5143,Pølser i brød
+5,AQ14.4,14,4,5144,Vafler
+5,AQ15.1,15,1,5151,Smaken
+5,AQ15.2,15,2,5152,Pris
+5,AQ15.3,15,3,5153,Tilgjengelig
+5,AQ16.1,16,1,5161,Smak
+5,AQ16.2,16,2,5162,Konsistensen
+5,AQ17.1,17,1,5171,Bedre smaker
+5,AQ17.2,17,2,5172,Bedre utseende
+5,AQ18.1,18,1,5181,Mindre fett
+5,AQ18.2,18,2,5182,Mindre kalorier
+5,AQ19.1,19,1,5191,Tradisjonelt
+5,AQ19.2,19,2,5192,Smaken
+5,AQ20.1,20,1,5201,Fløte
+5,AQ20.2,20,2,5202,Steke pose
+5,AQ20.3,20,3,5203,Smør
+5,AQ21.1,21,1,5211,Stekepose
+5,AQ21.2,21,2,5212,Gode råvarer
+5,AQ22.1,22,1,5221,Nei
+6,AQ1.1,1,1,611,At det går raskt å lage
+6,AQ1.2,1,2,612,Sunt
+6,AQ1.3,1,3,613,Kan bruke det jeg har i huset
+6,AQ1.4,1,4,614,Smakfullt
+6,AQ2.1,2,1,621,Selskap
+6,AQ2.2,2,2,622,Helgekos
+6,AQ2.3,2,3,623,Besøk
+6,AQ3.1,3,1,631,Ha god tid
+6,AQ3.2,3,2,632,Få til gode smaker
+6,AQ3.3,3,3,633,Nyttig
+6,AQ4.1,4,1,641,Gode råvarer
+6,AQ4.2,4,2,642,Tid
+6,AQ5.1,5,1,651,Kylling
+6,AQ5.2,5,2,652,Musikk
+6,AQ6.1,6,1,661,Hyggelig tilbakemeldinger
+6,AQ6.2,6,2,662,Godt humør
+6,AQ6.3,6,3,663,Gode vibber
+6,AQ7.1,7,1,671,Når jeg har lit tid
+6,AQ7.2,7,2,672,Skal spise alene
+6,AQ7.3,7,3,673,Ikke lyst å bruke tid på matlaging
+6,AQ8.1,8,1,681,Effektiv
+6,AQ9.1,9,1,691,Ferdigmat
+6,AQ9.2,9,2,692,Pasta
+6,AQ9.3,9,3,693,Suppe
+6,AQ10.1,10,1,6101,Sunt
+6,AQ10.2,10,2,6102,Fisk
+6,AQ10.3,10,3,6103,Enkelt å finne grønnsaker til
+6,AQ11.1,11,1,6111,Hvem som kommer og hva de liker
+6,AQ11.2,11,2,6112,Økonomi
+6,AQ11.3,11,3,6113,Tid for å lage
+6,AQ12.1,12,1,6121,At de liker maten
+6,AQ13.1,13,1,6131,Alene
+6,AQ13.2,13,2,6132,Ikke middagsråvarer hjemme
+6,AQ14.1,14,1,6141,Brødmat
+6,AQ14.2,14,2,6142,Toast
+6,AQ14.3,14,3,6143,Omelett
+6,AQ15.1,15,1,6151,Hva jeg liker
+6,AQ15.2,15,2,6152,Eller har lyst på
+6,AQ16.1,16,1,6161,Sunt
+6,AQ16.2,16,2,6162,Eller enkelt
+6,AQ17.1,17,1,6171,Samme som forrige
+6,AQ18.1,18,1,6181,Mindre mettet fett
+6,AQ18.2,18,2,6182,Fisk
+6,AQ19.1,19,1,6191,Kjent merkevare
+6,AQ20.1,20,1,6201,Ikke fylt med vann
+6,AQ21.1,21,1,6211,Samme dom forrige
+6,AQ22.1,22,1,6221,Vet ikke
+7,AQ1.1,1,1,711,Fersk
+7,AQ1.2,1,2,712,God kvalitet
+8,AQ5.1,5,1,851,Grønnsaker
+7,AQ1.3,1,3,713,Noen ganger raskt å lage
+7,AQ2.1,2,1,721,Når jeg har tid
+7,AQ2.2,2,2,722,Kan være hvilken dag som helst
+7,AQ2.3,2,3,723,Når jeg lager mat til andre
+7,AQ3.1,3,1,731,I godt humør
+7,AQ3.2,3,2,732,Sulten
+7,AQ3.3,3,3,733,Lage for andre
+7,AQ4.1,4,1,741,"Spiser sjelden fancy søndagsmiddag, så fort pizza eller annen take away"
+7,AQ5.1,5,1,751,Lager sjelden mat selv på søndager
+7,AQ6.1,6,1,761,"ingen forskjell, lager stort sett veldig god mat når jeg først lager flott middag selv"
+7,AQ7.1,7,1,771,Når jeg har dårlig tid
+7,AQ7.2,7,2,772,Når jeg ikke gidder lage mat bare til meg selv
+7,AQ8.1,8,1,781,Ingen spesiell følelse
+7,AQ9.1,9,1,791,Kjøper ordentlig ferdigmiddag laget av ferske råvarer.
+7,AQ9.2,9,2,792,KyllingSalat
+7,AQ9.3,9,3,793,En sjelden gang ferdigrett type fjordland
+7,AQ10.1,10,1,7101,Ingen preferanser
+7,AQ11.1,11,1,7111,Hva gjestene vil ha
+7,AQ12.1,12,1,7121,Ingen barn
+7,AQ13.1,13,1,7131,Når jeg ikke er sulten selv
+7,AQ14.1,14,1,7141,Toast
+7,AQ14.2,14,2,7142,omelett
+7,AQ14.3,14,3,7143,salat
+7,AQ15.1,15,1,7151,Ingen preferanser
+7,AQ16.1,16,1,7161,ingen preferanser
+7,AQ17.1,17,1,7171,nei
+7,AQ18.1,18,1,7181,Ingen preferanser
+7,AQ19.1,19,1,7191,Kjøttet er av kvalitet
+7,AQ19.2,19,2,7192,behandlet bra
+7,AQ19.3,19,3,7193,har god smak
+7,AQ19.4,19,4,7194,er mørt
+8,AQ5.2,5,2,852,Kjøtt
+7,AQ20.1,20,1,7201,Kvaliteten på kjøttet
+7,AQ20.2,20,2,7202,smak
+7,AQ20.3,20,3,7203,ikke tilsatt vann eller andre stoffer
+7,AQ21.1,21,1,7211,smak
+7,AQ21.2,21,2,7212,kvalitet
+7,AQ21.3,21,3,7213,uten tilsetningsstoffer
+7,AQ22.1,22,1,7221,laget arbeid bak produktet
+8,AQ1.1,1,1,811,Variasjon
+8,AQ1.2,1,2,812,Sunt
+8,AQ1.3,1,3,813,Elsker kjøtt / kylling
+8,AQ1.4,1,4,814,Enkelt og raskt av og til
+8,AQ1.5,1,5,815,Fredagstaco/lørdagspizza
+8,AQ2.1,2,1,821,Når jeg får andre på besøk
+8,AQ3.1,3,1,831,"Spennt, kommer de til å like det jeg lager?"
+8,AQ4.1,4,1,841,"Sunt, grønnsaker, kjøtt, eneste dagen jeg faktisk gidder å bruke litt ekstra tid."
+8,AQ5.3,5,3,853,Saus
+8,AQ6.1,6,1,861,Stemningen
+8,AQ7.1,7,1,871,Når jeg kommer hjem sent
+8,AQ7.2,7,2,872,Når jeg er sliten etter jobb
+8,AQ7.3,7,3,873,Når det haster å komme seg til noe annet
+8,AQ8.1,8,1,881,Chill
+8,AQ9.1,9,1,891,Frossen pizza
+8,AQ9.2,9,2,892,Risgrøt ferdiglaget
+8,AQ9.3,9,3,893,Noe annet frossen mat som er bare å varme opp
+8,AQ10.1,10,1,8101,"Variasjon, lenge siden sist"
+8,AQ11.1,11,1,8111,Tid
+8,AQ11.2,11,2,8112,Hva liker evt besøket
+8,AQ11.3,11,3,8113,Helgrhandling sjekker tilbud
+8,AQ12.1,12,1,8121,Sunt
+8,AQ13.1,13,1,8131,"Når jeg ikke gidder å handle å må improvisere det jeg har, som regel bare når jwg er alene."
+8,AQ14.1,14,1,8141,Ostesmørebrød
+8,AQ15.1,15,1,8151,Skal se godt ut
+8,AQ15.2,15,2,8152,Kjent merke
+8,AQ15.3,15,3,8153,Gjerne tilbud
+8,AQ15.4,15,4,8154,Må passe til hva jeg har lyst på
+8,AQ16.1,16,1,8161,"Beste er jo biff, indrefilet, namm! ❤️"
+8,AQ16.2,16,2,8162,Smaker ferskt
+8,AQ17.1,17,1,8171,"Biff, namm! ❤️ Koster for mye å spise det hele tiden"
+8,AQ18.1,18,1,8181,Mindre fett
+8,AQ19.1,19,1,8191,Tenker at kjente merkevarer blir godt kontrollert
+8,AQ19.2,19,2,8192,Viktig å ha god rykte
+8,AQ19.3,19,3,8193,"Evt fra lokale bønder, man tror dyrene har det bedre når de ikke kommer fra massaproduksjon"
+8,AQ20.1,20,1,8201,"Lite fett, ren kylling, lite blod"
+8,AQ21.1,21,1,8211,Farge
+8,AQ22.1,22,1,8221,Gass i forpakningen
+9,AQ1.1,1,1,911,Det er raskt å tilberede
+9,AQ1.2,1,2,912,Smaker godt
+9,AQ1.3,1,3,913,Bruke tid på å tilberede
+9,AQ1.4,1,4,914,Det er sunt
+9,AQ1.5,1,5,915,Hjemmelagd
+9,AQ2.1,2,1,921,Fridag
+9,AQ2.2,2,2,922,Gjester
+9,AQ2.3,2,3,923,Høytid
+9,AQ2.4,2,4,924,.
+9,AQ2.5,2,5,925,.
+9,AQ3.1,3,1,931,Opplagt
+9,AQ3.2,3,2,932,Rolig
+9,AQ3.3,3,3,933,Uthvilt
+9,AQ4.1,4,1,941,Hjemmelagd
+9,AQ4.2,4,2,942,Noe ekstra
+9,AQ4.3,4,3,943,God tid
+9,AQ4.4,4,4,944,Gode råvarer
+9,AQ5.1,5,1,951,Kjøtt
+9,AQ5.2,5,2,952,Grønnsaker
+9,AQ5.3,5,3,953,Potet
+9,AQ5.4,5,4,954,Saus
+9,AQ6.1,6,1,961,Mitt humør
+9,AQ6.2,6,2,962,Hyggelige komplimenter
+9,AQ6.3,6,3,963,God stemning
+9,AQ7.1,7,1,971,Etter jobb
+9,AQ7.2,7,2,972,Travelt
+9,AQ7.3,7,3,973,Sliten
+9,AQ7.4,7,4,974,Syk
+9,AQ8.1,8,1,981,Effektiv
+9,AQ8.2,8,2,982,Fresh
+9,AQ8.3,8,3,983,Opplagt
+9,AQ9.1,9,1,991,Pasta
+9,AQ9.2,9,2,992,Salat
+9,AQ9.3,9,3,993,Suppe
+9,AQ9.4,9,4,994,Rester
+9,AQ9.5,9,5,995,Halvfabrikat
+9,AQ10.1,10,1,9101,Raskt å tilberede
+9,AQ10.2,10,2,9102,God smak
+9,AQ10.3,10,3,9103,Sunt
+9,AQ10.4,10,4,9104,Mettende
+9,AQ11.1,11,1,9111,Litt ekstra
+9,AQ11.2,11,2,9112,Hjemmelagd
+9,AQ11.3,11,3,9113,Mer tidkrevende enn hverdagsmiddag
+9,AQ11.4,11,4,9114,Kos med tilbereding
+9,AQ12.1,12,1,9121,Noe de liker
+9,AQ12.2,12,2,9122,Sunt
+9,AQ13.1,13,1,9131,Travelt
+9,AQ13.2,13,2,9132,Sliten
+9,AQ13.3,13,3,9133,Matlei
+9,AQ13.4,13,4,9134,Mangler råvarer
+9,AQ14.1,14,1,9141,Brødmat
+9,AQ14.2,14,2,9142,Salat
+9,AQ14.3,14,3,9143,Egg
+9,AQ14.4,14,4,9144,Müsli
+9,AQ15.1,15,1,9151,Smak
+9,AQ15.2,15,2,9152,Hva resten av måltidet består av
+9,AQ15.3,15,3,9153,Bruke opp rester
+9,AQ16.1,16,1,9161,Smak
+9,AQ17.1,17,1,9171,Fisk
+9,AQ17.2,17,2,9172,Kylling
+9,AQ18.1,18,1,9181,Kylling
+9,AQ18.2,18,2,9182,Fisk
+9,AQ18.3,18,3,9183,Rent storfe eller svinekjøtt
+9,AQ19.1,19,1,9191,Erfaring
+9,AQ19.2,19,2,9192,Fakta
+9,AQ19.3,19,3,9193,Den stolte|||Magert
+9,AQ19.4,19,4,9194,Rent
+9,AQ20.1,20,1,9201,Krydder
+9,AQ20.2,20,2,9202,Marinade
+9,AQ20.3,20,3,9203,Tilbereding
+9,AQ20.4,20,4,9204,Tilbehør
+9,AQ21.1,21,1,9211,Krydder
+9,AQ21.2,21,2,9212,Marinade
+9,AQ21.3,21,3,9213,Ferskhet
+9,AQ22.1,22,1,9221,Krydder
+9,AQ22.2,22,2,9222,Marinade
+10,AQ1.1,1,1,1011,Grønnsaker
+10,AQ1.2,1,2,1012,Mye fisk
+10,AQ1.3,1,3,1013,Lite rødt kjøtt
+10,AQ1.4,1,4,1014,Lite fett
+10,AQ2.1,2,1,1021,Søndager
+10,AQ2.2,2,2,1022,Gjester
+10,AQ3.1,3,1,1031,Velstelt
+10,AQ3.2,3,2,1032,Våken
+10,AQ3.3,3,3,1033,Ikke for sulten
+10,AQ4.1,4,1,1041,Saus
+10,AQ4.2,4,2,1042,Poteter
+10,AQ4.3,4,3,1043,Fisk
+10,AQ4.4,4,4,1044,Lam
+10,AQ5.1,5,1,1051,Grønnsaker
+10,AQ6.1,6,1,1061,God tid til matlaging
+10,AQ7.1,7,1,1071,Mye på programmet
+10,AQ7.2,7,2,1072,Stresset
+10,AQ8.1,8,1,1081,Opplagt
+10,AQ8.2,8,2,1082,Våken
+10,AQ9.1,9,1,1091,Noe fra fryseren
+10,AQ10.1,10,1,10101,Vakum pakket. Små posjoner
+10,AQ11.1,11,1,10111,Været
+10,AQ11.2,11,2,10112,Sesongen
+10,AQ12.1,12,1,10121,Smake godt
+10,AQ12.2,12,2,10122,Ikke noe nytt
+10,AQ13.1,13,1,10131,Dårlig tid
+10,AQ14.1,14,1,10141,Pizza
+10,AQ14.2,14,2,10142,Pølser
+10,AQ15.1,15,1,10151,Sunnhet
+10,AQ16.1,16,1,10161,Ikke rødt kjøtt
+10,AQ17.1,17,1,10171,Mer fisk
+10,AQ18.1,18,1,10181,Lite fett
+10,AQ18.2,18,2,10182,Kortreist
+10,AQ18.3,18,3,10183,Ferskt
+10,AQ19.1,19,1,10191,Pris
+10,AQ19.2,19,2,10192,Ser delikat ut i forpakningen
+10,AQ20.1,20,1,10201,Presentasjonen
+10,AQ21.1,21,1,10211,Seigt / utygg bart
+10,AQ22.1,22,1,10221,Gode rutiner
+11,AQ1.1,1,1,1111,Maten er norsk
+11,AQ1.2,1,2,1112,Smakfull
+11,AQ1.3,1,3,1113,Ekte
+11,AQ2.1,2,1,1121,Helg
+11,AQ2.2,2,2,1122,Samle familien
+11,AQ3.1,3,1,1131,Avslappet
+11,AQ3.2,3,2,1132,Tilfreds
+11,AQ4.1,4,1,1141,Familie
+11,AQ5.1,5,1,1151,Ekte norske råvarer
+11,AQ5.2,5,2,1152,Grønnsaker
+11,AQ5.3,5,3,1153,Kjøtt
+11,AQ6.1,6,1,1161,Harmoni
+11,AQ7.1,7,1,1171,Når jeg er alene
+11,AQ8.1,8,1,1181,Mett
+11,AQ9.1,9,1,1191,Pølse
+11,AQ9.2,9,2,1192,Burger
+11,AQ9.3,9,3,1193,Pasta
+11,AQ10.1,10,1,11101,Variert kosthold
+11,AQ10.2,10,2,11102,Sunn mat
+11,AQ11.1,11,1,11111,Smak
+11,AQ11.2,11,2,11112,Kvalitet
+11,AQ12.1,12,1,11121,De må like maten
+11,AQ12.2,12,2,11122,Grønnsaker
+11,AQ12.3,12,3,11123,Variert mat
+11,AQ13.1,13,1,11131,.
+11,AQ14.1,14,1,11141,.
+11,AQ15.1,15,1,11151,Uprosessert
+11,AQ15.2,15,2,11152,Norsk
+11,AQ15.3,15,3,11153,Direkte fra bonden
+11,AQ16.1,16,1,11161,Smak
+11,AQ16.2,16,2,11162,Konsistens
+11,AQ17.1,17,1,11171,Sunnhet
+11,AQ18.1,18,1,11181,Vet ikke
+11,AQ19.1,19,1,11191,Kort reisevei til slakteri
+11,AQ19.2,19,2,11192,Mindre industriell slakting
+11,AQ20.1,20,1,11201,Måten det er bearbeidet på
+11,AQ21.1,21,1,11211,.
+12,AQ1.1,1,1,1211,God og næringsrik mat
+12,AQ1.2,1,2,1212,Kose oss
+12,AQ1.3,1,3,1213,Unne oss noe ekstra
+12,AQ1.4,1,4,1214,Raskt og lettvint
+12,AQ2.1,2,1,1221,Når vi får planlagt besøk
+12,AQ2.2,2,2,1222,Merkedager
+12,AQ3.1,3,1,1231,Tilfreds
+12,AQ3.2,3,2,1232,Glad
+12,AQ4.1,4,1,1241,Gode smaker
+12,AQ4.2,4,2,1242,Hyggelig måltid
+12,AQ5.1,5,1,1251,Godt tilberedt kjøtt
+12,AQ5.2,5,2,1252,Godt tilberedt fisk
+12,AQ5.3,5,3,1253,God drikke
+12,AQ5.4,5,4,1254,God dessert
+12,AQ6.1,6,1,1261,Svært sjelden fruen (kokken) lykkes dårlig med maten. Kan ikke huske sist det skjedde.
+12,AQ7.1,7,1,1271,Sliten og trøtt
+12,AQ7.2,7,2,1272,Skal rekke noe etterpå
+12,AQ8.1,8,1,1281,Tilfreds
+12,AQ9.1,9,1,1291,Halvfabrikata
+12,AQ10.1,10,1,12101,Noe vi liker
+12,AQ10.2,10,2,12102,Ikke for komplisert
+12,AQ11.1,11,1,12111,Gode smaker
+12,AQ12.1,12,1,12121,Hyggelig måltid
+12,AQ13.1,13,1,12131,Alt kan spises til middag.
+12,AQ14.1,14,1,12141,Alt kan spises til middag.
+12,AQ15.1,15,1,12151,Hva som er tilgjengelig
+12,AQ16.1,16,1,12161,Smaken
+12,AQ17.1,17,1,12171,Har ingen spesielle favoritter
+12,AQ18.1,18,1,12181,Det er mer tilberedningsmetoden som gjør dem mer eller mindre usunne
+12,AQ19.1,19,1,12191,At det er norsk
+12,AQ20.1,20,1,12201,Tilberedningen
+12,AQ21.1,21,1,12211,Tilberedningen
+12,AQ22.1,22,1,12221,Tilberedningen
+13,AQ1.1,1,1,1311,rent kjøtt
+13,AQ2.1,2,1,1321,når jeg har energi
+13,AQ3.1,3,1,1331,i godt humør
+13,AQ4.1,4,1,1341,barn
+20,AQ3.2,3,2,2032,Uthvilt.
+13,AQ4.2,4,2,1342,kjøtt storfe kylling
+13,AQ5.1,5,1,1351,kylling
+13,AQ5.2,5,2,1352,storfe
+13,AQ6.1,6,1,1361,mye bedre stemning
+13,AQ7.1,7,1,1371,når mannen er sen fra jobb
+13,AQ7.2,7,2,1372,når jeg er utslitt
+13,AQ8.1,8,1,1381,glad
+13,AQ9.1,9,1,1391,kjøttdeig
+13,AQ9.2,9,2,1392,ris
+13,AQ9.3,9,3,1393,pasta
+13,AQ9.4,9,4,1394,kylling
+13,AQ10.1,10,1,13101,"tilbehør som chili, ingefær, hvitløk"
+13,AQ11.1,11,1,13111,godt tilbehør
+13,AQ11.2,11,2,13112,god saus
+13,AQ12.1,12,1,13121,lage noe de liker
+13,AQ12.2,12,2,13122,unngå sære smaker
+13,AQ13.1,13,1,13131,når det skal være raskt
+13,AQ14.1,14,1,13141,kneippbrød
+13,AQ15.1,15,1,13151,smaker best
+13,AQ16.1,16,1,13161,smak
+13,AQ17.1,17,1,13171,indrefilet smaker godt men er dyrt
+13,AQ18.1,18,1,13181,"hvitt kjøtt, magert"
+13,AQ19.1,19,1,13191,gilde
+13,AQ20.1,20,1,13201,"må være saftig nok, ikke tørt"
+16,AQ5.2,5,2,1652,Poteter
+13,AQ20.2,20,2,13202,bruke godt med krydder
+13,AQ20.3,20,3,13203,god saus
+13,AQ21.1,21,1,13211,må ikke være tørt
+13,AQ22.1,22,1,13221,"vet ikke, hvorfor er Coop sitt xtra-merke dårligere enn andre kyllinger? sprøytet inn saltvann?"
+14,AQ1.1,1,1,1411,Er sunt
+14,AQ1.2,1,2,1412,Er ubearbeidede råvarer
+14,AQ1.3,1,3,1413,Går fort
+14,AQ1.4,1,4,1414,Er enkelt
+14,AQ1.5,1,5,1415,God næringsverdi og bærekraftig
+14,AQ2.1,2,1,1421,Helg med barna
+14,AQ2.2,2,2,1422,Helg med kjæresten
+14,AQ2.3,2,3,1423,Gjester
+14,AQ2.4,2,4,1424,Lage antiinflammatorisk mat til meg selv
+14,AQ3.1,3,1,1431,Harmonisk
+14,AQ3.2,3,2,1432,Glad
+14,AQ4.1,4,1,1441,Familie eller venner
+14,AQ4.2,4,2,1442,"Sunn, hjemmelaget mat"
+14,AQ4.3,4,3,1443,Gode råvarer
+14,AQ4.4,4,4,1444,Rødvin
+14,AQ5.1,5,1,1451,Grønnsaker
+14,AQ5.2,5,2,1452,God saus
+14,AQ5.3,5,3,1453,Rent kjøtt
+14,AQ5.4,5,4,1454,Rødvin
+14,AQ6.1,6,1,1461,Matglede
+14,AQ6.2,6,2,1462,Min tilfredshet
+14,AQ6.3,6,3,1463,Stemningen
+14,AQ7.1,7,1,1471,Hjemme alene
+14,AQ7.2,7,2,1472,Hverdagsmiddag på travle ettermiddager
+14,AQ8.1,8,1,1481,Tilfreds
+14,AQ8.2,8,2,1482,Uten dårlig samvittighet
+14,AQ9.1,9,1,1491,Rå grønnsaker og frukt
+14,AQ9.2,9,2,1492,Egg
+14,AQ9.3,9,3,1493,Fiskekaker
+14,AQ9.4,9,4,1494,Rett i ovnen fisk
+14,AQ10.1,10,1,14101,Sunt
+14,AQ10.2,10,2,14102,Lite tilsetningsstoffer
+14,AQ10.3,10,3,14103,Bærekraftige råvarer og produksjon
+14,AQ10.4,10,4,14104,Næringsverdi
+14,AQ11.1,11,1,14111,Smak
+14,AQ11.2,11,2,14112,Unne seg noe ekstra godt
+14,AQ11.3,11,3,14113,At familien setter pris på det
+14,AQ11.4,11,4,14114,Lite tilsetningsstoffer
+14,AQ12.1,12,1,14121,Grønnsaker til hvert måltid
+14,AQ12.2,12,2,14122,Bra næringsverdi
+14,AQ12.3,12,3,14123,At barna kommer til å spise det
+14,AQ13.1,13,1,14131,Alene hjemme
+14,AQ13.2,13,2,14132,Travel ettermiddag
+14,AQ14.1,14,1,14141,Kokte egg eller eggerøre med rå grønnsaker
+14,AQ14.2,14,2,14142,Ostesmørbrød og frukt
+14,AQ14.3,14,3,14143,Grøt
+14,AQ15.1,15,1,14151,Dyrevelferd
+14,AQ15.2,15,2,14152,Fettsyresammensetning rødt/hvitt kjøtt
+14,AQ15.3,15,3,14153,Pris
+14,AQ15.4,15,4,14154,Smak
+14,AQ16.1,16,1,14161,Kylling og hvitt kjøtt og fisk pga sunnere
+14,AQ16.2,16,2,14162,Spiser ikke svin pga avsløringene om industrien
+14,AQ16.3,16,3,14163,Mindre fett
+14,AQ16.4,16,4,14164,Rent kjøtt
+14,AQ17.1,17,1,14171,Sau pga bærekraft og norskprodusert
+14,AQ17.2,17,2,14172,Vilt pga lokalt og pga variasjon
+14,AQ17.3,17,3,14173,Fisk og skalldyr pga godt og sunt
+14,AQ18.1,18,1,14181,Fisk pga type fett og protein samt jod
+14,AQ18.2,18,2,14182,Hvitt kjøtt pga fettsyreprofil
+14,AQ19.1,19,1,14191,Norske råvarer
+14,AQ19.2,19,2,14192,Ikke billigmerker - da tenker jeg dårlig dyrevelferd
+14,AQ19.3,19,3,14193,Rene råvarer uten tilsetningsstoffer
+14,AQ19.4,19,4,14194,Uten nitritt/E250
+14,AQ20.1,20,1,14201,Saftig
+14,AQ20.2,20,2,14202,Mye smak
+14,AQ20.3,20,3,14203,Godt krydder
+14,AQ21.1,21,1,14211,Det svarte jeg på i forrige spørsmål
+14,AQ22.1,22,1,14221,Tilberedningsmetode
+14,AQ22.2,22,2,14222,Emballasje
+15,AQ1.1,1,1,1511,Godt og nyttig
+15,AQ1.2,1,2,1512,På hverdagen raskt å tilberede
+15,AQ1.3,1,3,1513,Rimelig
+16,AQ5.3,5,3,1653,Grønnsaker
+15,AQ2.1,2,1,1521,Helg
+15,AQ2.2,2,2,1522,Merkedager
+15,AQ2.3,2,3,1523,Helligdager
+15,AQ3.1,3,1,1531,Dyktig
+15,AQ4.1,4,1,1541,God mat tilberedt fra grunnen av. Gode råvarer.
+15,AQ5.1,5,1,1551,Kjøtt og friske grønnsaker
+15,AQ5.2,5,2,1552,Fersk fisk
+15,AQ6.1,6,1,1561,Stemningen
+16,AQ11.1,11,1,16111,Tid
+15,AQ7.1,7,1,1571,"Hverdagen når vi kommer hjem fra jobb på likt, eller han allerede er hjemme."
+15,AQ7.2,7,2,1572,Når skal videre på møte.
+15,AQ8.1,8,1,1581,Vet ikke
+15,AQ9.1,9,1,1591,"Pølser, ferdig kylling, pastaretter."
+15,AQ9.2,9,2,1592,Halvfabrikata
+15,AQ10.1,10,1,15101,"Godt, nyttig og variert."
+15,AQ10.2,10,2,15102,Raskt ferdig.
+15,AQ11.1,11,1,15111,Hvem som skal spise det
+15,AQ12.1,12,1,15121,At det er noe de liker godt.
+15,AQ13.1,13,1,15131,Ferie
+15,AQ13.2,13,2,15132,Dårlig tid
+15,AQ14.1,14,1,15141,Butikk-pizza
+15,AQ14.2,14,2,15142,Egg og bacon
+15,AQ14.3,14,3,15143,Omelett
+15,AQ15.1,15,1,15151,Biff mør|Bibringe feit
+15,AQ15.2,15,2,15152,Koteletter med fett|Mør filet
+15,AQ15.3,15,3,15153,Kylling fersk|Kylling ikke krydret
+15,AQ16.1,16,1,15161,Smak og konsistens.
+15,AQ16.2,16,2,15162,Mørt
+15,AQ17.1,17,1,15171,Nei
+15,AQ18.1,18,1,15181,Lite fett
+15,AQ19.1,19,1,15191,Dyrevelferd
+15,AQ19.2,19,2,15192,Bedre kvalitet
+15,AQ20.1,20,1,15201,"Fra dyr som har hatt det bra, ikke stressa."
+15,AQ21.1,21,1,15211,Smak og konsistens
+15,AQ22.1,22,1,15221,God dyrevelferd
+15,AQ22.2,22,2,15222,Slaktet og patert på en god måte
+16,AQ1.1,1,1,1611,Ser innbydende ut
+16,AQ1.2,1,2,1612,Raskt å tibrede
+16,AQ1.3,1,3,1613,Det er billigt
+16,AQ2.1,2,1,1621,Til søndag
+16,AQ2.2,2,2,1622,Ved gjester
+16,AQ3.1,3,1,1631,Glad og beruset
+16,AQ4.1,4,1,1641,Kjøtt
+16,AQ4.2,4,2,1642,Spesielt gode poteter
+16,AQ4.3,4,3,1643,Masse friske grønnsaker
+16,AQ5.1,5,1,1651,Kjøtt
+16,AQ6.1,6,1,1661,Brukt lang tid
+16,AQ6.2,6,2,1662,Gode forbredelser
+16,AQ7.1,7,1,1671,I hverdagen
+16,AQ8.1,8,1,1681,Utslitt
+16,AQ9.1,9,1,1691,Grandiosa
+16,AQ9.2,9,2,1692,Pasta
+16,AQ10.1,10,1,16101,Raskt
+16,AQ10.2,10,2,16102,Enkelt
+16,AQ11.2,11,2,16112,Tillgjengelighet
+16,AQ11.3,11,3,16113,Ferskt
+16,AQ12.1,12,1,16121,Nei
+16,AQ13.1,13,1,16131,Travelt
+16,AQ14.1,14,1,16141,Pannekaker
+16,AQ14.2,14,2,16142,Grøt
+16,AQ15.1,15,1,16151,Pris
+16,AQ15.2,15,2,16152,Tidsbruk
+16,AQ16.1,16,1,16161,"Svin, alle liker det"
+16,AQ16.2,16,2,16162,Lam i sesongen
+16,AQ17.1,17,1,16171,Fisk som eg fisker selv
+16,AQ18.1,18,1,16181,Er vell foret og bevegelse
+16,AQ19.1,19,1,16191,Små produsenter har bedre dyrevelferd
+16,AQ20.1,20,1,16201,Vekst
+16,AQ21.1,21,1,16211,Frittgående
+16,AQ22.1,22,1,16221,Færre fugler
+17,AQ1.1,1,1,1711,Maten smaker godt
+17,AQ1.2,1,2,1712,Kortreist
+17,AQ2.1,2,1,1721,Helgekos
+17,AQ2.2,2,2,1722,Høytider
+17,AQ3.1,3,1,1731,Glad
+17,AQ4.1,4,1,1741,God mat
+17,AQ4.2,4,2,1742,Min kjære
+17,AQ5.1,5,1,1751,Storfekjøtt
+17,AQ5.2,5,2,1752,Poteter
+17,AQ5.3,5,3,1753,Grønnsaker
+17,AQ5.4,5,4,1754,Saus
+17,AQ6.1,6,1,1761,Ingenting
+17,AQ7.1,7,1,1771,Når jeg er alene
+17,AQ8.1,8,1,1781,Avslappa
+17,AQ9.1,9,1,1791,Pølser
+17,AQ9.2,9,2,1792,Potestapp
+17,AQ10.1,10,1,17101,Tilgjengelig
+17,AQ11.1,11,1,17111,Hva jeg har lyst på
+17,AQ12.1,12,1,17121,Nei
+17,AQ13.1,13,1,17131,Ingen
+17,AQ14.1,14,1,17141,Pølser
+17,AQ15.1,15,1,17151,Tilgjengelighet
+17,AQ16.1,16,1,17161,"Storfe, smaken"
+17,AQ17.1,17,1,17171,Nei
+17,AQ18.1,18,1,17181,Ingenting
+17,AQ19.1,19,1,17191,Ingen ting
+17,AQ20.1,20,1,17201,Tilberedelsen
+17,AQ21.1,21,1,17211,Tilbehøret
+17,AQ22.1,22,1,17221,Ingen ting
+18,AQ1.1,1,1,1811,Raskt
+18,AQ1.2,1,2,1812,Billig
+19,AQ2.1,2,1,1921,Ofte
+18,AQ1.3,1,3,1813,Sunt
+18,AQ2.1,2,1,1821,Helg
+18,AQ3.1,3,1,1831,Opplagt
+18,AQ4.1,4,1,1841,God tid
+18,AQ5.1,5,1,1851,Fisk
+18,AQ5.2,5,2,1852,Potet
+18,AQ5.3,5,3,1853,Saus
+18,AQ6.1,6,1,1861,Dårlig tid
+18,AQ7.1,7,1,1871,Etter jobb
+18,AQ8.1,8,1,1881,Ryddig kjøkken
+18,AQ8.2,8,2,1882,"Ferdig kuttet grønt, raskt"
+18,AQ9.1,9,1,1891,Fisk
+18,AQ10.1,10,1,18101,Økologjsk
+18,AQ10.2,10,2,18102,Rommelig
+18,AQ10.3,10,3,18103,Sunt
+18,AQ11.1,11,1,18111,Noe alle liker
+19,AQ3.1,3,1,1931,God matopplevelse
+18,AQ12.1,12,1,18121,Italiensk mat
+18,AQ13.1,13,1,18131,Før trening
+18,AQ14.1,14,1,18141,Toast
+18,AQ14.2,14,2,18142,Omelett
+18,AQ15.1,15,1,18151,Spiser kun fisk
+18,AQ16.1,16,1,18161,Er pesketerianer
+18,AQ17.1,17,1,18171,Spiser kun fisk
+18,AQ18.1,18,1,18181,Spiser ikke
+18,AQ19.1,19,1,18191,Dyrevelferd
+18,AQ20.1,20,1,18201,Dyrevelferd
+18,AQ21.1,21,1,18211,For
+18,AQ22.1,22,1,18221,Dyrevelferd
+19,AQ1.1,1,1,1911,Råvarer
+19,AQ1.2,1,2,1912,Ferske
+19,AQ1.3,1,3,1913,Pris
+19,AQ4.1,4,1,1941,Lammelår
+19,AQ4.2,4,2,1942,Fløtepoteter
+19,AQ4.3,4,3,1943,Mint gelé
+19,AQ5.1,5,1,1951,Lam
+19,AQ5.2,5,2,1952,Potet
+19,AQ5.3,5,3,1953,Mint gelé
+19,AQ22.1,22,1,19221,Oppveksten til dyra
+19,AQ6.1,6,1,1961,Ingen betydning
+19,AQ7.1,7,1,1971,Når jeg er fysen på noe godt
+19,AQ8.1,8,1,1981,Bra
+19,AQ9.1,9,1,1991,Man bruker det man har
+19,AQ10.1,10,1,19101,Smak
+19,AQ11.1,11,1,19111,Smak
+19,AQ12.1,12,1,19121,Nei
+19,AQ13.1,13,1,19131,Av og til
+19,AQ14.1,14,1,19141,Ost/kjeks
+19,AQ15.1,15,1,19151,Smak
+19,AQ16.1,16,1,19161,Alt bare ikke svin
+19,AQ17.1,17,1,19171,Smak
+19,AQ18.1,18,1,19181,At det ikke er rødt kjøtt
+19,AQ19.1,19,1,19191,Ingen menig
+19,AQ20.1,20,1,19201,Tilberedning
+19,AQ21.1,21,1,19211,Tilbereding
+20,AQ1.1,1,1,2011,Hva vi liker/har lyst på.
+20,AQ1.2,1,2,2012,Hva som ser fristende ut i butikken.
+20,AQ1.3,1,3,2013,Lettvint i ukedagene.
+20,AQ1.4,1,4,2014,En mer høytidelig hendelse/helg.
+20,AQ2.1,2,1,2021,Helg
+20,AQ2.2,2,2,2022,"Høytid (påske, jul)"
+20,AQ2.3,2,3,2023,ferie (sommer)
+20,AQ3.1,3,1,2031,Godt humør.
+20,AQ3.3,3,3,2033,Sulten.
+20,AQ4.1,4,1,2041,En god flaske rødvin.
+20,AQ4.2,4,2,2042,"En god stek (okse, lam eller dyrestek)"
+20,AQ4.3,4,3,2043,ferske poteter
+20,AQ4.4,4,4,2044,Syltetøy og pickles.
+20,AQ5.1,5,1,2051,Norske poteter
+20,AQ5.2,5,2,2052,Gulrøtter og erter
+20,AQ5.3,5,3,2053,Tyttebærsyltetøy og pickles.
+20,AQ5.4,5,4,2054,"En stek (okse, lam, dyrestek)"
+20,AQ5.5,5,5,2055,En god flaske rødvin (burgunder).
+20,AQ6.1,6,1,2061,At rødvinen harmonerer med maten.
+20,AQ6.2,6,2,2062,At steken er passe stekt.
+20,AQ6.3,6,3,2063,At forberedelsene ikke har vært preget av stress.
+20,AQ7.1,7,1,2071,Travel hverdag.
+20,AQ7.2,7,2,2072,Dagen før eksamen og lignende.
+20,AQ7.3,7,3,2073,Når noen av oss har jobbet lenge.
+20,AQ8.1,8,1,2081,Jeg vil føle en lettelse fordi jeg har tilgang til noe som er enkelt å tilberede.
+20,AQ9.1,9,1,2091,Pølse i brød/lompe.
+20,AQ9.2,9,2,2092,Hamburger.
+20,AQ9.3,9,3,2093,Reker med loff
+20,AQ9.4,9,4,2094,"Hermetikk (lapskaus, Joika, A la Capri)"
+20,AQ9.5,9,5,2095,fjordland
+21,AQ3.2,3,2,2132,Skuffet når maten er ferdig
+20,AQ10.1,10,1,20101,"At jeg har laget det før (vet hva jeg skal gjøre/""har det i fingrene)"
+20,AQ10.2,10,2,20102,At det er enkelt å få tak i.
+20,AQ10.3,10,3,20103,At de ulike i familien vil ha det jeg serverer dem.
+20,AQ11.1,11,1,20111,Tilgang til produktene
+20,AQ11.2,11,2,20112,At vi har lyst på det
+20,AQ12.1,12,1,20121,Det er viktig at barna vil ha det.
+20,AQ12.2,12,2,20122,Det er viktig at det er enkelt å få tak i det vi trenger.
+20,AQ13.1,13,1,20131,Dager hvor vi har mye å gjøre.
+20,AQ13.2,13,2,20132,På reise.
+20,AQ14.1,14,1,20141,Brødmat/smørbrød.
+20,AQ14.2,14,2,20142,Hotellbuffet på reise.
+20,AQ14.3,14,3,20143,Ost og kjeks.
+20,AQ15.1,15,1,20151,At vi liker det.
+20,AQ15.2,15,2,20152,At det er sesong for det.
+20,AQ15.3,15,3,20153,At det er greit å få tak i det.
+20,AQ16.1,16,1,20161,Okse egner seg godt til gryteretter. Og som stek.
+20,AQ16.2,16,2,20162,Lam egner seg godt som stek på høsten.
+20,AQ16.3,16,3,20163,Svin egner seg godt i form av pølser og koteletter.
+20,AQ16.4,16,4,20164,Nytrukket fisk er godt på alle måter.
+20,AQ16.5,16,5,20165,"Dyrestek (rein, hjort) er godt i sesongen."
+20,AQ17.1,17,1,20171,Kramsfugl (rype og orrfugl). Tilgangen er ikke så enkel som det du får i butikken.
+20,AQ17.2,17,2,20172,"Noen fiskesorter, men det begrenser seg på grunn av at bestanden er redusert."
+20,AQ18.1,18,1,20181,"Vilt (kramsfugl og storvilt) er best fordi det er lite fettholdig, har god holdbarhet og er økologisk."
+20,AQ18.2,18,2,20182,Selvfanget fisk er sunt.
+20,AQ19.1,19,1,20191,Gilde - god og stabil kvalitetsleverandør.
+20,AQ19.2,19,2,20192,Grilstad - godt kjøttpålegg.
+20,AQ19.3,19,3,20193,Idsøe - lokal slakter av høy kvalitet.
+20,AQ20.1,20,1,20201,Saftig
+20,AQ20.2,20,2,20202,Smakfullt
+22,AQ3.1,3,1,2231,Glad
+20,AQ20.3,20,3,20203,Økologisk og hva dyret har ernært seg på. Dette gir igjen i smaken.
+20,AQ21.1,21,1,20211,Dette er da samme spørsmål som på forrige side???
+20,AQ22.1,22,1,20221,Økologisk framstilt.
+20,AQ22.2,22,2,20222,Ikke masseproduksjon.
+20,AQ22.3,22,3,20223,Tatt seg bedre tid med dyrene.
+21,AQ1.1,1,1,2111,Smak
+21,AQ1.2,1,2,2112,Variasjon
+21,AQ1.3,1,3,2113,Lager mat for mwg selv så små porsjoner.
+21,AQ1.4,1,4,2114,Take away er både rimelig og godt
+21,AQ1.5,1,5,2115,Har ikke mye tid til matlagning
+21,AQ2.1,2,1,2121,Imponere
+21,AQ2.2,2,2,2122,Forbedre meg selv
+21,AQ2.3,2,3,2123,Spennende med noe nytt
+21,AQ2.4,2,4,2124,Smakt noe liknende og vil herme
+21,AQ3.1,3,1,2131,Stresset
+21,AQ3.3,3,3,2133,Tenker jeg kan gjøre bedre neste gang
+21,AQ4.1,4,1,2141,Nachos med kjøttdeig
+21,AQ4.2,4,2,2142,Entrecote med soppstuing
+21,AQ4.3,4,3,2143,Sjømatsuppe
+21,AQ4.4,4,4,2144,Pizza
+21,AQ4.5,4,5,2145,Chickentikka
+21,AQ5.1,5,1,2151,Kjøttdeig
+21,AQ5.2,5,2,2152,Biff
+21,AQ5.3,5,3,2153,Kylling
+21,AQ5.4,5,4,2154,Reker
+21,AQ5.5,5,5,2155,Ymse krydder
+21,AQ6.1,6,1,2161,Folk blir lengre når det smaker bra
+21,AQ6.2,6,2,2162,De har det hyggeligere
+21,AQ6.3,6,3,2163,Når de ikke har det bra så spiser de ikke opp
+21,AQ7.1,7,1,2171,Sen jobb
+21,AQ7.2,7,2,2172,Lat
+21,AQ7.3,7,3,2173,Får lyst på noe
+21,AQ7.4,7,4,2174,Nytt sted i byen
+21,AQ8.1,8,1,2181,Valutta for penga
+21,AQ8.2,8,2,2182,Lite oppvask
+21,AQ8.3,8,3,2183,Ganske mett
+21,AQ9.1,9,1,2191,Ris
+21,AQ9.2,9,2,2192,Egg
+21,AQ9.3,9,3,2193,Oregano
+21,AQ10.1,10,1,21101,Små porsjoner
+21,AQ10.2,10,2,21102,Noe som kan kjøles
+21,AQ10.3,10,3,21103,Noe som kan fryses
+21,AQ10.4,10,4,21104,Smaker godt
+21,AQ11.1,11,1,21111,Det må vøre interesse
+21,AQ12.1,12,1,21121,Variasjon
+21,AQ12.2,12,2,21122,Ernæring
+21,AQ12.3,12,3,21123,Protein
+21,AQ12.4,12,4,21124,Kjøtt
+21,AQ12.5,12,5,21125,Rødt kjøtt
+21,AQ13.1,13,1,21131,Sommer
+21,AQ13.2,13,2,21132,Tapas
+21,AQ13.3,13,3,21133,Rakk ikke butikken
+21,AQ14.1,14,1,21141,Ris
+21,AQ14.2,14,2,21142,Frokostblandibg
+21,AQ14.3,14,3,21143,Godteri
+21,AQ15.1,15,1,21151,"Marbling, altså fett imellom kjøttet."
+21,AQ15.2,15,2,21152,Fettets plassering
+22,AQ7.1,7,1,2271,Mandag til torsdag
+21,AQ15.3,15,3,21153,"Dato, helst så gammelt som mulig"
+21,AQ16.1,16,1,21161,"Storfe, for den mentale velværen"
+21,AQ16.2,16,2,21162,"Reker, morsomt"
+21,AQ16.3,16,3,21163,"Bacon, snack"
+21,AQ16.4,16,4,21164,"Ørrett, smaken"
+21,AQ17.1,17,1,21171,"Wagyu, dæven så godt det er."
+21,AQ17.2,17,2,21172,Ribbe
+21,AQ18.1,18,1,21181,Hater karbonadedeig
+21,AQ19.1,19,1,21191,Sysselsetting i butikken
+21,AQ20.1,20,1,21201,Skyr den type kjøtt sprøytet med vann som pesten.
+21,AQ21.1,21,1,21211,Ikke sprøyt det!
+21,AQ22.1,22,1,21221,Sunn fornuft
+22,AQ1.1,1,1,2211,Kjapt å lage
+22,AQ1.2,1,2,2212,Noe vi syns er godt
+22,AQ1.3,1,3,2213,Variert gjennom uka
+22,AQ2.1,2,1,2221,Lørdag kveld
+22,AQ2.2,2,2,2222,Søndag
+22,AQ2.3,2,3,2223,Samle familie
+22,AQ2.4,2,4,2224,Samle venner
+22,AQ3.2,3,2,2232,Avslappet
+22,AQ4.1,4,1,2241,Kylling kjøtt eller fisk
+22,AQ4.2,4,2,2242,Potet ris eller pasta
+22,AQ4.3,4,3,2243,Grønnsaker eller salat
+22,AQ4.4,4,4,2244,God saus
+22,AQ4.5,4,5,2245,Dessert
+22,AQ5.1,5,1,2251,Kjøtt
+22,AQ5.2,5,2,2252,Potet
+22,AQ5.3,5,3,2253,Salat
+22,AQ5.4,5,4,2254,Saud
+22,AQ6.1,6,1,2261,Lage favorittmåltidet
+22,AQ8.1,8,1,2281,Avslappet
+22,AQ8.2,8,2,2282,Fornøyd
+22,AQ9.1,9,1,2291,Kylling
+22,AQ9.2,9,2,2292,Egg
+22,AQ9.3,9,3,2293,Bacon
+22,AQ9.4,9,4,2294,Salat
+22,AQ10.1,10,1,22101,Fisk
+22,AQ10.2,10,2,22102,Grønnsaker
+22,AQ10.3,10,3,22103,Pasta
+22,AQ11.1,11,1,22111,Pris
+22,AQ11.2,11,2,22112,Type mat
+22,AQ12.1,12,1,22121,Favorittmat
+22,AQ12.2,12,2,22122,Sunn mat
+22,AQ13.1,13,1,22131,Enkelt måltid i hverdagen
+22,AQ14.1,14,1,22141,Kokt egg
+22,AQ14.2,14,2,22142,Pålegg
+22,AQ14.3,14,3,22143,Brød
+22,AQ15.1,15,1,22151,Pris
+22,AQ15.2,15,2,22152,Hvitt kjøtt
+22,AQ16.1,16,1,22161,Hvitt kjøtt
+22,AQ17.1,17,1,22171,Sunt og godt
+22,AQ18.1,18,1,22181,Klimavennlig
+22,AQ18.2,18,2,22182,Pris
+22,AQ19.1,19,1,22191,Klimavennlig
+22,AQ20.1,20,1,22201,Fast kjøtt
+22,AQ21.1,21,1,22211,Krydderet
+22,AQ22.1,22,1,22221,Godt for
+23,AQ1.1,1,1,2311,det må smake godt
+23,AQ1.2,1,2,2312,det bør være innbydende
+23,AQ1.3,1,3,2313,det bør være sunt
+23,AQ1.4,1,4,2314,jeg ønsker å spise mer fisk
+23,AQ11.2,11,2,23112,velsmakende
+23,AQ1.5,1,5,2315,gjerne vegetarretter innimellom
+23,AQ2.1,2,1,2321,da bør det være meget velsmakende
+23,AQ2.2,2,2,2322,gjerne fersk fisk
+23,AQ3.1,3,1,2331,i godt humør
+23,AQ3.2,3,2,2332,sosial
+23,AQ3.3,3,3,2333,trygg på at det jeg lager er sunt og godt
+23,AQ4.1,4,1,2341,helstekt fisk
+23,AQ4.2,4,2,2342,nydelig fiskefilet
+23,AQ4.3,4,3,2343,"sterk mat, gjerne indisk"
+23,AQ5.1,5,1,2351,breiflabbfilet
+23,AQ5.2,5,2,2352,kveite
+23,AQ5.3,5,3,2353,hel laks eller ørret
+23,AQ5.4,5,4,2354,større steker av viltkjøtt
+23,AQ6.1,6,1,2361,god stemning
+23,AQ6.2,6,2,2362,god drikke
+23,AQ11.3,11,3,23113,innbydende
+23,AQ6.3,6,3,2363,perfekt tilberedelse
+23,AQ6.4,6,4,2364,god tid
+23,AQ7.1,7,1,2371,til hverdags
+23,AQ7.2,7,2,2372,når tiden ikke strekker til til noe annet
+23,AQ7.3,7,3,2373,når jeg er alene
+23,AQ7.4,7,4,2374,når jeg og guttene er alene
+23,AQ8.1,8,1,2381,det bør være rimelig
+23,AQ8.2,8,2,2382,det bør være sunt
+23,AQ9.1,9,1,2391,fiskepinner
+23,AQ9.2,9,2,2392,fiskekaker
+23,AQ9.3,9,3,2393,fiskepudding
+23,AQ9.4,9,4,2394,grøt
+23,AQ9.5,9,5,2395,pannekaker
+23,AQ10.1,10,1,23101,helst noe med fisk
+23,AQ10.2,10,2,23102,"gjerne vegetar - grøt, pannekaker..."
+23,AQ11.1,11,1,23111,koselig å spise med andre
+23,AQ11.4,11,4,23114,sunt
+23,AQ12.1,12,1,23121,sunt
+23,AQ12.2,12,2,23122,ikke for sterk mat
+23,AQ13.1,13,1,23131,når tiden ikke strekker til
+23,AQ13.2,13,2,23132,når vi ikke har utstyret for å lage varmmat tilgjengelig
+23,AQ14.1,14,1,23141,sandwich
+23,AQ14.2,14,2,23142,salat
+23,AQ14.3,14,3,23143,brødskiver
+23,AQ15.1,15,1,23151,"FOretrekker kylling, både pga smak og pris"
+23,AQ15.2,15,2,23152,"viltkjøtt - gjerne hjort, rein, rådyr, elg"
+23,AQ16.1,16,1,23161,"kylling - god smak, rimelig"
+23,AQ16.2,16,2,23162,"hjortekalv, nydelig smak og tekstur"
+23,AQ16.3,16,3,23163,"reinskjøtt, flott farge, bra på smak"
+23,AQ16.4,16,4,23164,"elgkjøtt, rent kjøtt"
+23,AQ17.1,17,1,23171,ulike typer viltkjøtt
+23,AQ18.1,18,1,23181,kylling - lite mettet fett
+23,AQ18.2,18,2,23182,rent svinekjøtt - lite mettet fett
+23,AQ19.1,19,1,23191,Har lite preferanser
+23,AQ20.1,20,1,23201,saftighet
+23,AQ21.1,21,1,23211,saftigere kjøtt er bedre
+23,AQ22.1,22,1,23221,"usikker. Emballering, pakking, slakteprosess?"
+24,AQ1.1,1,1,2411,Hygge
+24,AQ1.2,1,2,2412,Smak
+24,AQ1.3,1,3,2413,Raskt
+24,AQ1.4,1,4,2414,Krydder
+24,AQ1.5,1,5,2415,Gourmet
+24,AQ2.1,2,1,2421,Helg
+24,AQ2.2,2,2,2422,Felles måltider
+24,AQ3.1,3,1,2431,Stolt
+24,AQ3.2,3,2,2432,Passe stresset
+24,AQ3.3,3,3,2433,Glad
+24,AQ4.1,4,1,2441,Rustik
+24,AQ4.2,4,2,2442,Mat som passer til vann
+24,AQ4.3,4,3,2443,Husmannskost
+24,AQ5.1,5,1,2451,Kjøtt
+24,AQ5.2,5,2,2452,Poteter
+24,AQ5.3,5,3,2453,Grønnsaker
+24,AQ6.1,6,1,2461,Mindre rester
+24,AQ6.2,6,2,2462,Folk bruker god tid med maten
+24,AQ7.1,7,1,2471,Hverdag
+24,AQ8.1,8,1,2481,Sulten
+24,AQ8.2,8,2,2482,Trett
+24,AQ9.1,9,1,2491,Nudler
+24,AQ9.2,9,2,2492,Pizza
+24,AQ9.3,9,3,2493,Brødskive
+24,AQ10.1,10,1,24101,Variasjon
+24,AQ10.2,10,2,24102,Kjapt
+24,AQ11.1,11,1,24111,ordentlig mat
+24,AQ11.2,11,2,24112,tidkrevende
+24,AQ12.1,12,1,24121,mindre krydder
+24,AQ13.1,13,1,24131,Etter lange dager på jobb
+24,AQ14.1,14,1,24141,Brødskiver
+24,AQ15.1,15,1,24151,Variasjon
+24,AQ15.2,15,2,24152,Tilgjengelighet
+24,AQ15.3,15,3,24153,Tilbud
+24,AQ16.1,16,1,24161,Smak
+24,AQ17.1,17,1,24171,"Lam, fordi det er veldig godt."
+24,AQ17.2,17,2,24172,"Fisk, godt og sunt"
+24,AQ18.1,18,1,24181,Utendørs beite
+24,AQ18.2,18,2,24182,Minst mulig kraftfor
+24,AQ19.1,19,1,24191,Dyrevelferd
+24,AQ19.2,19,2,24192,Gode arbeidsforhold
+24,AQ20.1,20,1,24201,Smaken er i fettet!
+24,AQ21.1,21,1,24211,Overkokt
+24,AQ21.2,21,2,24212,Overstekt
+24,AQ22.1,22,1,24221,Riktig for
+25,AQ3.2,3,2,2532,Stolthet
+25,AQ1.1,1,1,2511,Det er viktig for meg å spise mat med vitamin b og næringsrik mat
+25,AQ1.2,1,2,2512,Ofte velger å spise noe veldig lett gjort pga. dårlig tid
+25,AQ1.3,1,3,2513,Jeg liker noe ganger å ha ordentlig middag enten alene eller med venner enten hjemme eller ute.
+25,AQ1.4,1,4,2514,Min ofte valg når har dårlig tid er gresk gyros.
+25,AQ1.5,1,5,2515,Viktig også å vite kjøtts opprinnelse og hvordan dyre har levd og hva de har spist. Dette gjelder både fisk og kjøtt.
+25,AQ2.1,2,1,2521,Når jeg har det fri
+25,AQ2.2,2,2,2522,Når jeg har venner som gjester
+25,AQ2.3,2,3,2523,Når jeg ønsker å glede jenta mi
+25,AQ2.4,2,4,2524,I helgen
+25,AQ3.1,3,1,2531,Lykke
+25,AQ3.3,3,3,2533,Glede
+25,AQ3.4,3,4,2534,Spent
+25,AQ3.5,3,5,2535,Sliten
+25,AQ4.1,4,1,2541,Rød og hvit vin
+25,AQ4.2,4,2,2542,Kjøtt kokt i oven eller grill
+25,AQ4.3,4,3,2543,God salat og oster
+25,AQ4.4,4,4,2544,Minst to retter
+25,AQ4.5,4,5,2545,Mange personer rundt bordet
+25,AQ5.1,5,1,2551,Forskjellige grønnsaker
+25,AQ5.2,5,2,2552,Lam kjøtt
+25,AQ5.3,5,3,2553,"Hvit løk, sitron, ferske urter, tzatziki"
+25,AQ5.4,5,4,2554,Krydder
+25,AQ6.1,6,1,2561,Sikkert er jeg mer glad når har jeg lyktes
+25,AQ6.2,6,2,2562,Stemmingen på bordet er mye hyggeligere når gjester er meget fornøyde
+25,AQ6.3,6,3,2563,Jeg er fornøyd med meg selv når alt er bra gjort
+25,AQ7.1,7,1,2571,Daglig liv
+25,AQ7.2,7,2,2572,Arbeids dager
+25,AQ7.3,7,3,2573,Når jeg er alene
+25,AQ8.1,8,1,2581,Effektiv
+25,AQ8.2,8,2,2582,Stresser meg ikke
+25,AQ9.1,9,1,2591,Kylling
+25,AQ9.2,9,2,2592,Wok
+25,AQ9.3,9,3,2593,Elg/rein skav
+25,AQ9.4,9,4,2594,Omelett
+25,AQ10.1,10,1,25101,"At det er variert mellom fugl, kjøtt fisk og vegetar"
+25,AQ11.1,11,1,25111,Lager mat langsomt
+25,AQ11.2,11,2,25112,Mat som kan mage timer i oven
+25,AQ12.1,12,1,25121,Rikelig med grønnsaker som salat og tilberedt
+25,AQ12.2,12,2,25122,Linser og bønner
+25,AQ13.1,13,1,25131,Når man står i svært stressende situasjoner
+25,AQ13.2,13,2,25132,Eller man har ekstrem dårlig tid da man gir pølse og lompe
+25,AQ14.1,14,1,25141,Pølse lompa
+25,AQ14.2,14,2,25142,Pizza ferdiggjort
+25,AQ15.1,15,1,25151,Dyrelivet: dyr som spiser og beiter
+25,AQ15.2,15,2,25152,Variert kost
+25,AQ15.3,15,3,25153,Godt levd liv
+25,AQ15.4,15,4,25154,Relativ bevegelses Frihet
+25,AQ16.1,16,1,25161,Smaken (lam mer smakfull)
+25,AQ16.2,16,2,25162,Vill fisk (ikke opprett)
+25,AQ16.3,16,3,25163,Naturlig smak og lukt
+25,AQ16.4,16,4,25164,Innmat
+25,AQ17.1,17,1,25171,Fordi de har en naturlig god smak
+25,AQ18.1,18,1,25181,Magert kjøtt
+25,AQ18.2,18,2,25182,At dyrene beveger seg.
+25,AQ19.1,19,1,25191,Der de beskriver hva dyret har spist og hvordan dyret har levd
+25,AQ20.1,20,1,25201,At det er tilberedt med hvitløk og sitron
+25,AQ21.1,21,1,25211,Svarte dette spørsmål allerede. Se forrige svar
+25,AQ22.1,22,1,25221,Hva som dyret har spist
+26,AQ11.1,11,1,26111,Gode råvarer
+26,AQ1.1,1,1,2611,Det er en rask middag å lage
+26,AQ1.2,1,2,2612,Man har god tid på kjøkkenet for å lage skikkelig familiemiddag fra bunnen av
+26,AQ1.3,1,3,2613,At en har tilgang på gode råvarer
+26,AQ2.1,2,1,2621,Når det er helg og vi har tid til å kose oss
+26,AQ2.2,2,2,2622,Når vi har gode venner på besøk
+26,AQ3.1,3,1,2631,Glad
+26,AQ4.1,4,1,2641,Kjøtt i en eller annen form
+26,AQ4.2,4,2,2642,"God fisk, fortrinnsvis klippfisk"
+26,AQ5.1,5,1,2651,"Kjøtt av storfe eller gris, poteter i alle former"
+26,AQ6.1,6,1,2661,"God stemning rundt bordet, smil og lutter glede"
+26,AQ7.1,7,1,2671,Når vi kommer sent hjem fra jobb og barnehage
+26,AQ8.1,8,1,2681,Glad og sulten
+26,AQ9.1,9,1,2691,"Vi lager aldri ferdigmat, vi lager alltid store porsjoner og fryser ned for rask tilberedning ved slike anledninger"
+26,AQ10.1,10,1,26101,At den er god til tross for at den er enkel å tilberede
+34,AQ22.2,22,2,34222,Riktig steketid
+26,AQ12.1,12,1,26121,Her spiser barna alt de voksne spiser
+26,AQ13.1,13,1,26131,Skjer ikke
+26,AQ14.1,14,1,26141,Serverer alltid middag uten unntak
+26,AQ15.1,15,1,26151,Kvalitet
+26,AQ15.2,15,2,26152,Kvalitet
+26,AQ15.3,15,3,26153,Kvalitet
+26,AQ16.1,16,1,26161,"Svinekjøtt siden alle i familien liker det, og vi har lokal slakter som skaffer alle stykningsdelene vi etterspør"
+26,AQ17.1,17,1,26171,Storfe siden det er min personlige favoritt
+26,AQ18.1,18,1,26181,"I mitt hode så dreier det seg om smak og nytelse, sunnheten blåser vi i."
+26,AQ19.1,19,1,26191,Trondheim Slakthus siden de selger kvalitet av tørrmodnet kjøtt
+26,AQ20.1,20,1,26201,At det er uten tilsatt vann og eller salt.
+26,AQ21.1,21,1,26211,At det er uten tilsetningsstoffer og fremstår som saftig etter tilberedning
+32,AQ14.1,14,1,32141,Egg og bacon
+26,AQ22.1,22,1,26221,Ser ikke ut som produsentene bryr seg om annet enn å få til et billig stykke kjøtt ved å tilsette unødigheter
+27,AQ1.1,1,1,2711,Jeg serverer noe spesielt
+27,AQ1.2,1,2,2712,Jeg serverer noe eksotisk
+27,AQ1.3,1,3,2713,Jeg serverer noe sunt
+27,AQ1.4,1,4,2714,Jeg serverer noe godt
+27,AQ1.5,1,5,2715,Jeg serverer noe enkelt
+27,AQ2.1,2,1,2721,Når jeg har tid
+27,AQ2.2,2,2,2722,Når jeg har lyst på noe god sjømat
+27,AQ2.3,2,3,2723,Når jeg har noe wagu eller blue fin tuna
+27,AQ2.4,2,4,2724,Når vi skal ha selskap
+27,AQ2.5,2,5,2725,Når det er noe jeg vil at andre skal få oppleve
+27,AQ3.1,3,1,2731,Jeg vil føle glede
+27,AQ3.2,3,2,2732,Mestring
+27,AQ3.3,3,3,2733,Utfordrende
+27,AQ3.4,3,4,2734,Ha det godt
+27,AQ3.5,3,5,2735,Smaksopplevelse også når man lager maten
+27,AQ4.1,4,1,2741,Gode smaker
+27,AQ4.2,4,2,2742,Gode råvarer
+27,AQ4.3,4,3,2743,Spise med sine barn
+27,AQ4.4,4,4,2744,At de liker maten
+27,AQ4.5,4,5,2745,At de viser glede
+27,AQ5.1,5,1,2751,Sjømat
+27,AQ5.2,5,2,2752,Blue fin tuna
+27,AQ5.3,5,3,2753,Shashimi
+27,AQ5.4,5,4,2754,En god salat
+27,AQ5.5,5,5,2755,Chrispy grønnsaker
+27,AQ6.1,6,1,2761,At gjestene viser glede
+27,AQ6.2,6,2,2762,De forsyner seg flere ganger
+27,AQ6.3,6,3,2763,Orker ikke dessert før lenge etter maten
+27,AQ6.4,6,4,2764,Gir noen gode tilbakemeldinger
+27,AQ6.5,6,5,2765,Sitter lenge ved bordet
+27,AQ7.1,7,1,2771,Dårlig tid
+27,AQ7.2,7,2,2772,Skal på noe
+27,AQ7.3,7,3,2773,Ingen andre å spise med
+27,AQ7.4,7,4,2774,Midt i uken stresd
+27,AQ7.5,7,5,2775,Må ut å handle da mye er tomt i fryser eller kjøl
+27,AQ8.1,8,1,2781,Effektivt
+27,AQ8.2,8,2,2782,At man liker maten
+27,AQ8.3,8,3,2783,Glede ved å rekke flere ting den dagen
+27,AQ8.4,8,4,2784,Glede ved å bli fort ferdig
+27,AQ9.1,9,1,2791,Pizza
+27,AQ9.2,9,2,2792,Pølser
+27,AQ9.3,9,3,2793,Thaisupper på pose
+27,AQ9.4,9,4,2794,Kylling ferdiggrillet og sticky rice
+27,AQ9.5,9,5,2795,Tomatsuppe og kjøttboller med makaroni
+27,AQ10.1,10,1,27101,Grønnsaker
+27,AQ10.2,10,2,27102,Sjømat
+27,AQ10.3,10,3,27103,Rice
+27,AQ10.4,10,4,27104,At det er sunt
+27,AQ10.5,10,5,27105,God smaksopplevelse
+27,AQ11.1,11,1,27111,Mulighet for at det kan grilles
+27,AQ11.2,11,2,27112,Gode råvarer
+27,AQ11.3,11,3,27113,Grønnsaker
+27,AQ11.4,11,4,27114,God smaksopplevelse
+27,AQ11.5,11,5,27115,Sunt
+27,AQ12.1,12,1,27121,Sunt
+27,AQ12.2,12,2,27122,God smaksopplevelse
+27,AQ12.3,12,3,27123,At de liker maten
+27,AQ12.4,12,4,27124,Nye smaker
+27,AQ12.5,12,5,27125,Egentlig ikke noe andre kriterier enn til voksne
+27,AQ13.1,13,1,27131,Ved ekstremt dårlig tid
+27,AQ13.2,13,2,27132,Barna har spist hos andre
+27,AQ13.3,13,3,27133,Ikke er så sulten
+27,AQ13.4,13,4,27134,Kommer sent hjem
+27,AQ14.1,14,1,27141,Brødmat
+27,AQ14.2,14,2,27142,Toast
+27,AQ14.3,14,3,27143,Enkel posesuppe
+27,AQ15.1,15,1,27151,Sunt
+27,AQ15.2,15,2,27152,Lite fett
+27,AQ15.3,15,3,27153,God smak
+27,AQ15.4,15,4,27154,Mulighet for grilling året rundt
+27,AQ15.5,15,5,27155,Kort tilberedingstid
+27,AQ16.1,16,1,27161,God smaksopplevelse
+27,AQ16.2,16,2,27162,Saftig
+27,AQ16.3,16,3,27163,Mørt
+27,AQ16.4,16,4,27164,Sunt
+27,AQ16.5,16,5,27165,Lite skadelig fett
+27,AQ17.1,17,1,27171,Wagu eller tilsvarende |God smak og mere sunt fett
+27,AQ17.2,17,2,27172,Fugl fjærkre.bedre for klima
+27,AQ17.3,17,3,27173,Landkylling Bedre smak og sunnere.
+27,AQ17.4,17,4,27174,Kalkun sunnere
+27,AQ17.5,17,5,27175,Mere vilt.god smak og mørt.
+27,AQ18.1,18,1,27181,Kylling.lite fett
+27,AQ18.2,18,2,27182,Kalkun lite fett og sunnere
+27,AQ18.3,18,3,27183,Vilt.sunne og næringsrikt kjøtt.Lite fett.Naturlig kost
+27,AQ19.1,19,1,27191,Kortreist mat
+27,AQ19.2,19,2,27192,Økologiske
+27,AQ19.3,19,3,27193,Frittgående
+27,AQ19.4,19,4,27194,Bærekraftig
+27,AQ19.5,19,5,27195,God dyrevelferd
+27,AQ20.1,20,1,27201,"Foret,maten"
+27,AQ20.2,20,2,27202,Frittgående
+27,AQ20.3,20,3,27203,Økologisk
+27,AQ20.4,20,4,27204,God dyrevelferd
+27,AQ20.5,20,5,27205,Naturlig oppvekst
+27,AQ21.1,21,1,27211,Foret maten
+27,AQ21.2,21,2,27212,Økologisk
+27,AQ21.3,21,3,27213,God dyrevelferd
+27,AQ21.4,21,4,27214,Frittgående
+27,AQ21.5,21,5,27215,Naturlig vekst
+27,AQ22.1,22,1,27221,At de lever naturlig
+27,AQ22.2,22,2,27222,Ser på trivselen til dyrene
+27,AQ22.3,22,3,27223,Maten
+27,AQ22.4,22,4,27224,Ikke for mange sammen
+27,AQ22.5,22,5,27225,Naturlig velst
+28,AQ1.1,1,1,2811,Variasjon
+28,AQ1.2,1,2,2812,Sunt
+28,AQ1.3,1,3,2813,Lettvint
+28,AQ9.2,9,2,2892,Fiskekaker
+28,AQ1.4,1,4,2814,Smakfullt
+28,AQ2.1,2,1,2821,Helegemat
+28,AQ3.1,3,1,2831,Forventningsfull
+28,AQ3.2,3,2,2832,Sulten
+28,AQ4.1,4,1,2841,Gode smaker
+28,AQ4.2,4,2,2842,Fargerikt
+28,AQ4.3,4,3,2843,Kjøtt/ fisk og grønnsaker
+28,AQ5.1,5,1,2851,Kjøtt
+28,AQ5.2,5,2,2852,Saus
+28,AQ5.3,5,3,2853,Grønnsaker
+28,AQ6.1,6,1,2861,God stemning
+28,AQ7.1,7,1,2871,Vanligvis
+28,AQ8.1,8,1,2881,Spent
+28,AQ8.2,8,2,2882,Sulten
+28,AQ8.3,8,3,2883,Forventningsfull
+28,AQ9.1,9,1,2891,Pølser
+28,AQ9.3,9,3,2893,Ferdigretter
+28,AQ10.1,10,1,28101,Sunt
+28,AQ10.2,10,2,28102,Grønnsaker
+28,AQ10.3,10,3,28103,Lett å tilberede
+28,AQ11.1,11,1,28111,Smakfullt
+28,AQ11.2,11,2,28112,Mettende
+28,AQ11.3,11,3,28113,Tilgjengelig
+28,AQ12.1,12,1,28121,Populært
+28,AQ13.1,13,1,28131,Ikke sulten
+28,AQ14.1,14,1,28141,Varmt ostesmørbrød
+28,AQ15.1,15,1,28151,Magert
+28,AQ15.2,15,2,28152,Smakfullt
+28,AQ15.3,15,3,28153,Dyrevelferd
+28,AQ16.1,16,1,28161,At dura har levd sunt
+28,AQ17.1,17,1,28171,At dyra har levd sunt
+28,AQ17.2,17,2,28172,God smak
+28,AQ17.3,17,3,28173,Lett å tilberede
+28,AQ18.1,18,1,28181,At dyra har hatt et fritt liv
+28,AQ19.1,19,1,28191,God kontroll
+28,AQ20.1,20,1,28201,Vet ikke
+28,AQ21.1,21,1,28211,Vet ikke
+28,AQ22.1,22,1,28221,Dyreholdet
+29,AQ1.1,1,1,2911,Det er sunt
+29,AQ2.1,2,1,2921,Helg
+29,AQ3.1,3,1,2931,Bra
+29,AQ4.1,4,1,2941,Familie
+29,AQ5.1,5,1,2951,Kylling
+29,AQ6.1,6,1,2961,Na
+29,AQ7.1,7,1,2971,Hverdag
+29,AQ8.1,8,1,2981,Bra
+29,AQ9.1,9,1,2991,Usikker
+29,AQ10.1,10,1,29101,Pris
+29,AQ11.1,11,1,29111,Råvare
+29,AQ12.1,12,1,29121,Sudnt
+29,AQ13.1,13,1,29131,Na
+29,AQ14.1,14,1,29141,Na
+29,AQ15.1,15,1,29151,Pris
+29,AQ16.1,16,1,29161,Pris
+29,AQ17.1,17,1,29171,Pris
+29,AQ18.1,18,1,29181,Pris
+29,AQ19.1,19,1,29191,Na
+29,AQ20.1,20,1,29201,Na
+29,AQ21.1,21,1,29211,Na
+29,AQ22.1,22,1,29221,Na
+30,AQ1.1,1,1,3011,Enkelt
+30,AQ1.2,1,2,3012,Raskt
+31,AQ8.2,8,2,3182,Happy
+30,AQ1.3,1,3,3013,Sunt
+30,AQ1.4,1,4,3014,Variert
+30,AQ2.1,2,1,3021,Med venner
+30,AQ2.2,2,2,3022,I helger
+30,AQ3.1,3,1,3031,Opplagt
+30,AQ4.1,4,1,3041,Sammen med familie
+30,AQ4.2,4,2,3042,Velsmakende
+30,AQ4.3,4,3,3043,Med vin eller øk
+30,AQ5.1,5,1,3051,Grønnsaker
+30,AQ5.2,5,2,3052,Fisk eller kjøtt
+30,AQ5.3,5,3,3053,God saus
+30,AQ6.1,6,1,3061,Smaker godt
+30,AQ7.1,7,1,3071,Hverdags
+30,AQ8.1,8,1,3081,Effektiv
+30,AQ9.1,9,1,3091,Frossen
+30,AQ9.2,9,2,3092,Ferdigmat
+30,AQ10.1,10,1,30101,Variasjin
+30,AQ10.2,10,2,30102,Sunt
+30,AQ11.1,11,1,30111,Kvalitet
+30,AQ12.1,12,1,30121,Det de liker
+30,AQ13.1,13,1,30131,Hverdags
+30,AQ14.1,14,1,30141,Brød
+30,AQ15.1,15,1,30151,Kvalitet
+30,AQ16.1,16,1,30161,Smak
+30,AQ17.1,17,1,30171,Smak
+30,AQ18.1,18,1,30181,Mindre fett
+30,AQ19.1,19,1,30191,Omdømme
+30,AQ20.1,20,1,30201,Mørnet
+30,AQ21.1,21,1,30211,Saftig
+30,AQ22.1,22,1,30221,Fritt gående
+31,AQ1.1,1,1,3111,Enkelt
+31,AQ9.1,9,1,3191,Pizza
+31,AQ1.2,1,2,3112,Billig
+31,AQ1.3,1,3,3113,God smak
+31,AQ1.4,1,4,3114,Mettende
+31,AQ2.1,2,1,3121,Bursdag
+31,AQ2.2,2,2,3122,Helger
+31,AQ3.1,3,1,3131,Opplagt
+31,AQ4.1,4,1,3141,Kjøtt
+31,AQ4.2,4,2,3142,Saus
+31,AQ4.3,4,3,3143,Brus
+31,AQ4.4,4,4,3144,Chips
+31,AQ5.1,5,1,3151,Kjøtt
+31,AQ5.2,5,2,3152,Chips
+31,AQ5.3,5,3,3153,Saus
+31,AQ6.1,6,1,3161,Aner ikke
+31,AQ7.1,7,1,3171,Når det er travelt
+31,AQ8.1,8,1,3181,Opplagt
+31,AQ10.1,10,1,31101,Pris
+31,AQ10.2,10,2,31102,Smak
+31,AQ10.3,10,3,31103,Tid
+31,AQ11.1,11,1,31111,Smak
+31,AQ12.1,12,1,31121,Nei
+31,AQ13.1,13,1,31131,Når vi er late
+31,AQ14.1,14,1,31141,Ostesmørbrød
+31,AQ15.1,15,1,31151,Smak
+31,AQ16.1,16,1,31161,Biff
+31,AQ17.1,17,1,31171,Smak
+31,AQ18.1,18,1,31181,Kjøtt er sunt
+31,AQ19.1,19,1,31191,Vet ikke
+31,AQ20.1,20,1,31201,Smaken
+31,AQ21.1,21,1,31211,Smaken
+31,AQ22.1,22,1,31221,Vet ikke
+32,AQ1.1,1,1,3211,Det er viktig for meg at jeg har i alle fall en fiskemiddag i uken.
+32,AQ1.2,1,2,3212,Ellers blir det mye kjøttkaker med poteter og brokkoli
+32,AQ1.3,1,3,3213,Kylling spiser jeg også hver uke.
+32,AQ2.1,2,1,3221,Om jeg får besøk av kjæresten så legger jeg litt ekstra flid i det.
+32,AQ3.1,3,1,3231,Blir alltid i godt humør av å lage - og å spise middag.
+32,AQ4.1,4,1,3241,En god fiskerett - eller en god kjøttrett - for eksempel steik og poteter og saus.
+32,AQ5.1,5,1,3251,Grønnsaker
+32,AQ6.1,6,1,3261,Får gode tilbakemeldinger
+32,AQ7.1,7,1,3271,De fleste dager. Som regel er jeg sulten når jeg lager middag - og da skal det gå raskt.
+32,AQ8.1,8,1,3281,Komfortabel
+32,AQ9.1,9,1,3291,"Kylling og ris, Pasta"
+32,AQ10.1,10,1,32101,At det er raskt tilgjengelig
+32,AQ11.1,11,1,32111,Grønnsaker
+32,AQ11.2,11,2,32112,Broccoli
+32,AQ11.3,11,3,32113,At det er rimelig
+32,AQ12.1,12,1,32121,"Nei, blir det samme"
+32,AQ13.1,13,1,32131,Hvis jeg tar en tidlig middag
+32,AQ14.2,14,2,32142,Pannekaker
+32,AQ15.1,15,1,32151,Smake godt
+32,AQ15.2,15,2,32152,Raskt å tilberede
+32,AQ16.1,16,1,32161,Smaker bedre
+32,AQ17.1,17,1,32171,Fordi det er godt
+32,AQ18.1,18,1,32181,Aner ikke
+32,AQ19.1,19,1,32191,Aner ikke
+32,AQ20.1,20,1,32201,Aner ikke
+32,AQ21.1,21,1,32211,Aner ikke
+32,AQ22.1,22,1,32221,Aner ikke
+33,AQ1.1,1,1,3311,Maten smaker godt
+33,AQ1.2,1,2,3312,Raskt å lage
+33,AQ1.3,1,3,3313,Lett å lage
+33,AQ7.1,7,1,3371,Hverdagen
+33,AQ1.4,1,4,3314,Ikke har mange ingredienser jeg blir sittende igjen med og ikke får spist
+33,AQ2.1,2,1,3321,Ved besøk
+33,AQ2.2,2,2,3322,Til helga
+33,AQ2.3,2,3,3323,Når jeg får lyst
+33,AQ2.4,2,4,3324,Når jeg har bedre tid
+33,AQ3.1,3,1,3331,Bra
+33,AQ4.1,4,1,3341,Venner
+33,AQ4.2,4,2,3342,Ost
+33,AQ4.3,4,3,3343,Kjøtt
+33,AQ4.4,4,4,3344,Vin
+33,AQ5.1,5,1,3351,Kjøtt
+33,AQ5.2,5,2,3352,Ost
+33,AQ5.3,5,3,3353,Poteter
+33,AQ5.4,5,4,3354,Fløte
+33,AQ5.5,5,5,3355,Grønnsaker
+33,AQ6.1,6,1,3361,Fornøyde mennesker
+33,AQ7.2,7,2,3372,Når jeg har det travelt
+33,AQ8.1,8,1,3381,Effektiv
+33,AQ9.1,9,1,3391,Ferdig pizza
+33,AQ9.2,9,2,3392,Grøt
+33,AQ9.3,9,3,3393,Ferdig wok
+33,AQ10.1,10,1,33101,Godt
+33,AQ10.2,10,2,33102,Sunt
+33,AQ10.3,10,3,33103,Passe mengde
+33,AQ10.4,10,4,33104,Enkelt å lage
+33,AQ10.5,10,5,33105,Effektivt
+33,AQ11.1,11,1,33111,Ost
+33,AQ11.2,11,2,33112,Smaker godt
+33,AQ12.1,12,1,33121,At det smaker godt
+33,AQ13.1,13,1,33131,Når jeg har det travelt
+33,AQ14.1,14,1,33141,Omelett
+33,AQ15.1,15,1,33151,At jeg har lyst på det
+33,AQ15.2,15,2,33152,Hva slags rett jeg skal lage
+33,AQ16.1,16,1,33161,Smaken
+33,AQ17.1,17,1,33171,Enkelhet
+33,AQ17.2,17,2,33172,Vane
+33,AQ18.1,18,1,33181,Magere kjøtt
+33,AQ19.1,19,1,33191,Dyrevelferd
+33,AQ19.2,19,2,33192,Behandling av kjøttet
+33,AQ20.1,20,1,33201,Krydder
+33,AQ20.2,20,2,33202,Mørhet
+33,AQ21.1,21,1,33211,Krydder
+33,AQ21.2,21,2,33212,Mørhet
+33,AQ22.1,22,1,33221,Vet ikke
+34,AQ1.1,1,1,3411,Raskt
+34,AQ1.2,1,2,3412,Kjøtt
+34,AQ1.3,1,3,3413,Godt
+34,AQ1.4,1,4,3414,Billig
+34,AQ1.5,1,5,3415,Sunt
+34,AQ2.1,2,1,3421,Thanksgiving
+34,AQ2.2,2,2,3422,Forlovelsesdagen
+34,AQ2.3,2,3,3423,Jul
+34,AQ2.4,2,4,3424,Bursdag
+34,AQ2.5,2,5,3425,Tacofredag
+34,AQ3.1,3,1,3431,Glad
+34,AQ3.2,3,2,3432,Jul
+34,AQ4.1,4,1,3441,Kylling
+34,AQ4.2,4,2,3442,Spise sammen
+34,AQ5.1,5,1,3451,Cola
+34,AQ5.2,5,2,3452,Kylling
+34,AQ5.3,5,3,3453,Pommes frites
+34,AQ5.4,5,4,3454,Saus
+34,AQ6.1,6,1,3461,Planleggingen
+34,AQ6.2,6,2,3462,Brukt god tide
+34,AQ6.3,6,3,3463,Kost meg med å lage maten
+34,AQ7.1,7,1,3471,Alene hjemme
+34,AQ7.2,7,2,3472,Rett fra jobb
+34,AQ7.3,7,3,3473,Før jeg skal reise
+34,AQ8.1,8,1,3481,Mett
+34,AQ8.2,8,2,3482,Tilfreds
+34,AQ9.1,9,1,3491,Noe som puttes i microen eller ovnen
+34,AQ9.2,9,2,3492,Grandis
+34,AQ9.3,9,3,3493,Fjorland
+34,AQ9.4,9,4,3494,Små forsyne middags pakker
+34,AQ10.1,10,1,34101,Proteiner
+34,AQ10.2,10,2,34102,Pris
+34,AQ10.3,10,3,34103,Smak
+34,AQ10.4,10,4,34104,Tid på laging
+34,AQ11.1,11,1,34111,Tid på matlaging
+34,AQ11.2,11,2,34112,Pris
+34,AQ11.3,11,3,34113,Smak
+34,AQ11.4,11,4,34114,Metthet
+34,AQ12.1,12,1,34121,Ting dem liker
+34,AQ12.2,12,2,34122,Noe trygt
+34,AQ12.3,12,3,34123,Noe godt
+34,AQ13.1,13,1,34131,Liten tid (pannekaker eller pølser)
+34,AQ13.2,13,2,34132,Rekke trening
+34,AQ14.1,14,1,34141,Pannekaker
+34,AQ14.2,14,2,34142,Pølser
+34,AQ14.3,14,3,34143,Grandis
+34,AQ14.4,14,4,34144,Ostesmørbrødtoast
+34,AQ15.1,15,1,34151,Anledning
+34,AQ15.2,15,2,34152,Ukedag
+34,AQ16.1,16,1,34161,Saus
+34,AQ16.2,16,2,34162,Anledning
+34,AQ17.1,17,1,34171,"Biff, godt og mye proteiner"
+34,AQ17.2,17,2,34172,"Kylling, sunt"
+34,AQ17.3,17,3,34173,"Fisk, sunt"
+34,AQ18.1,18,1,34181,"Fisk, sunne oljer"
+34,AQ18.2,18,2,34182,"Kylling, magert"
+34,AQ18.3,18,3,34183,"Fe, proteiner"
+34,AQ19.1,19,1,34191,Smaken
+34,AQ19.2,19,2,34192,Opprinnelsen
+34,AQ20.1,20,1,34201,Mørhet
+34,AQ20.2,20,2,34202,Smaken
+34,AQ20.3,20,3,34203,Tørrhet
+34,AQ20.4,20,4,34204,Saus
+34,AQ21.1,21,1,34211,Sausen
+34,AQ21.2,21,2,34212,Tørrheten
+34,AQ21.3,21,3,34213,Skorpen med krydder
+34,AQ22.1,22,1,34221,Krydder på skorpen
+35,AQ1.1,1,1,3511,Maten er varm
+35,AQ1.2,1,2,3512,Maten er sunn
+35,AQ1.3,1,3,3513,Balansert måltid
+35,AQ1.4,1,4,3514,God smak
+35,AQ1.5,1,5,3515,Ser godt ut
+35,AQ2.1,2,1,3521,Når gjester er på besøk
+35,AQ2.2,2,2,3522,Når det er feiring
+35,AQ2.3,2,3,3523,Når det er helg
+35,AQ2.4,2,4,3524,Har sett på noen nye oppskrifter
+35,AQ2.5,2,5,3525,I humør til å lage noe
+35,AQ3.1,3,1,3531,Glad
+35,AQ3.2,3,2,3532,Lykkelig
+35,AQ3.3,3,3,3533,Mestringsfølelse
+35,AQ3.4,3,4,3534,Skyldig
+35,AQ3.5,3,5,3535,Vil ha mer
+35,AQ4.1,4,1,3541,Kylling
+35,AQ4.2,4,2,3542,ris
+35,AQ4.3,4,3,3543,Salat
+35,AQ4.4,4,4,3544,Bernaisesaus
+35,AQ4.5,4,5,3545,Brus
+35,AQ5.1,5,1,3551,Rotisserie kylling
+35,AQ5.2,5,2,3552,Saus pakke
+35,AQ5.3,5,3,3553,Basmatiris
+35,AQ5.4,5,4,3554,Salat
+35,AQ6.1,6,1,3561,Dårlig humør
+35,AQ6.2,6,2,3562,Ikke stolt
+35,AQ7.1,7,1,3571,Etter trening
+35,AQ8.1,8,1,3581,Fornøyd
+35,AQ9.1,9,1,3591,Fjordland
+35,AQ10.1,10,1,35101,Proteinkilden
+35,AQ11.1,11,1,35111,Hvilke ingredienser som er i kjøleskapet
+35,AQ12.1,12,1,35121,God smak
+35,AQ13.1,13,1,35131,Når jeg er nesten tom for matvarer
+35,AQ14.1,14,1,35141,Brød med pålegg
+35,AQ15.1,15,1,35151,Kylling
+35,AQ16.1,16,1,35161,Liker kylling best fordi det har mye proteiner og relativt lav kaloriinnhold ift andre kjøtt
+35,AQ16.2,16,2,35162,Kjøttdeig fordi det er enkelt å lage
+35,AQ17.1,17,1,35171,Svin storfe - kan være vanskelig å tilberede
+35,AQ18.1,18,1,35181,"Høyt protein, lav kcal og mettet fett"
+35,AQ18.2,18,2,35182,Kilde til omega3
+35,AQ19.1,19,1,35191,Fordi noen har jeg vokst opp med å spise
+35,AQ20.1,20,1,35201,Krydder
+35,AQ20.2,20,2,35202,Olje
+35,AQ20.3,20,3,35203,Marineringstid
+35,AQ21.1,21,1,35211,Krydder
+35,AQ21.2,21,2,35212,Olje
+35,AQ22.1,22,1,35221,Selger det

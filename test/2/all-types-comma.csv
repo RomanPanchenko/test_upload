@@ -1,0 +1,2 @@
+StringColumn,NumberColumn,BooleanColumn,ArrayColumn,ObjectColumn,NullColumn,MixedColumn
+A,1,true,[],{},null,true
